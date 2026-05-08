@@ -14,6 +14,7 @@ This file maps `franzabner-proof-stack` to the current Franzabner public technic
 | Electrical / KiCad / PCB | `public-pcb-review-checklist`, `electrical-panel-dressing` | Electrical review discipline, panel documentation posture, and public-safe checklist structure. | Live / merged scaffold. | Board-source, routing, BOM, Gerber, pin-map, certification, and sign-off review. |
 | Field / mission-critical discipline | `field-to-architect`, `mission-critical-discipline` | Field-to-architecture translation and mission-critical documentation discipline. | Merged scaffold. | No deployment, client, customer, revenue, or production claim without review. |
 | Embedded / Pico / RP2350 | `pico2-pio-i2c-reference` | Embedded reference workflow and interface documentation proof. | Merged scaffold. | Firmware, protocol, pin-map, and production integration review. |
+| Hardware breadboard / RIB boundary | `rib-breadboard` | Public breadboard/reference scaffold and hardware boundary discipline. | Merged scaffold. | Production RIB implementation remains sealed; no production board files, firmware internals, BOMs, Gerbers, pin maps, routing, manufacturing approval, certification, sign-off, or production-ready claim. |
 | Agents / review gates | `engineering-agent-review-gates` | AI-assisted engineering review gates and human authority discipline. | Live public scaffold. | No private prompt, memory, tool, endpoint, corpus, or harness exposure. |
 | README/productization proof | `technical-readme-lab` | Synthetic README quality and repo-polish proof. | Live public scaffold. | Example, status, and claim review. |
 | Hugging Face readiness | `hf-card-templates` | Model card, dataset card, Space card, evaluation report, and release-checklist templates. | Live public scaffold. | No model, dataset, Space, benchmark, eval result, or hosted artifact claim without evidence. |
@@ -25,7 +26,7 @@ This file maps `franzabner-proof-stack` to the current Franzabner public technic
 | Lane | Held repos or examples | Hold reason |
 |---|---|---|
 | Mechanical / Fusion 360 | Fusion and enclosure portfolio candidates | Asset, geometry, dimensions, export, and manufacturing review required. |
-| KiCad / PCB production | KiCad libraries, production board candidates, RIB-adjacent materials | Board-source, routing, BOM, Gerber, pin map, manufacturing, and certification review required. |
+| KiCad / PCB production | KiCad libraries, production board candidates, production RIB materials | Board-source, routing, BOM, Gerber, pin map, manufacturing, and certification review required. |
 | DGX / NVIDIA / fine-tuning | DGX, NVIDIA, fine-tuning, evaluation, and lab-note candidates | Infrastructure, corpus, private weights, endpoint, log, benchmark, and result review required. |
 | Agents / harnesses | private harness, memory schema, autonomous engineering candidates | Private prompt, tool, memory, corpus, endpoint, and sealed YOSO-YAi boundary review required. |
 | Omniverse / USD / 3D worlds | USD scene, worldbuilding, and 3D engineering candidates | Scene, private CAD, product geometry, facility, and asset review required. |

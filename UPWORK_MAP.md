@@ -14,6 +14,7 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 | README/productization | Technical README cleanup and repo presentation discipline. | Draft | `technical-readme-lab` examples and human review. |
 | Electrical / KiCad / PCB | PCB documentation review and report cleanup. | Draft | `public-pcb-review-checklist`, `electrical-panel-dressing`, and reviewed boundary language. |
 | Embedded / Pico / RP2350 | Embedded interface documentation discipline. | Draft | `pico2-pio-i2c-reference` plus review for no firmware, pin-map, or production integration exposure. |
+| Breadboard / hardware boundary documentation | Public-safe breadboard/reference documentation and hardware boundary cleanup. | Draft | `rib-breadboard` after rendered review; no production RIB source, production firmware, manufacturing, certification, sign-off, deployment, client, customer, revenue, BOM, Gerber, pin-map, routing, or production-ready claim. |
 | Field / mission-critical discipline | Field-to-architecture and operational documentation posture. | Draft | `field-to-architect` and `mission-critical-discipline` after rendered review. |
 | Agents / harnesses | AI output review gates and harness documentation. | Draft | `engineering-agent-review-gates` with no private internals. |
 | Hugging Face / EPI | Card, release-readiness, EPI paper-scaffold, and evaluation report documentation. | Draft | `hf-card-templates`, EPI spine scaffolds, paper-specific EPI scaffolds, and no fake artifact claims. |

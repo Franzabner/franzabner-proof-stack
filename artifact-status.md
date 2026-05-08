@@ -29,6 +29,7 @@ Future labels such as released require separate evidence and approval. They are 
 | `field-to-architect` | `https://github.com/Franzabner/field-to-architect` | Merged scaffold | Old-repo alignment merged. |
 | `mission-critical-discipline` | `https://github.com/Franzabner/mission-critical-discipline` | Merged scaffold | Old-repo alignment merged. |
 | `pico2-pio-i2c-reference` | `https://github.com/Franzabner/pico2-pio-i2c-reference` | Merged scaffold | Old-repo alignment merged. |
+| `rib-breadboard` | `https://github.com/Franzabner/rib-breadboard` | Merged breadboard/reference scaffold | Public-boundary cleanup merged. Production RIB implementation remains sealed. No production board files, firmware internals, BOMs, Gerbers, pin maps, routing, manufacturing approval, certification, sign-off, deployment, client, customer, revenue, or production-ready claim. |
 | `energy-per-intelligence` | `https://github.com/Franzabner/energy-per-intelligence` | Merged research scaffold | EPI spine alignment merged. |
 | `epi-bench` | `https://github.com/Franzabner/epi-bench` | Merged tooling scaffold | EPI spine alignment merged. |
 | `epi-meter` | `https://github.com/Franzabner/epi-meter` | Merged hardware measurement scaffold | EPI spine alignment merged. |
@@ -40,7 +41,7 @@ Future labels such as released require separate evidence and approval. They are 
 
 | Artifact or lane | Status | Reason |
 |---|---|---|
-| Rack / DGX / agent / Fusion / KiCad production / RIB / infrastructure repos | Held | Boundary review required before public proof routing. |
+| Rack / DGX / agent / Fusion / KiCad production / production RIB / infrastructure repos | Held or derivative-only | Boundary review required before public proof routing. |
 
 ## Hugging Face Status Rule
 

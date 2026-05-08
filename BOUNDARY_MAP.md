@@ -14,6 +14,7 @@ This file summarizes public, private, and sealed boundaries for the proof stack.
 | Mechanical / Fusion 360 | Synthetic screenshots, simplified diagrams, reviewed documentation patterns. | Production CAD, exact dimensions, product geometry, source files, manufacturing packages, private screenshots. | Any real asset, screenshot, export, dimension, or geometry. |
 | Electrical / KiCad / PCB | Synthetic review packets, checklist rows, public-safe report templates, aligned electrical documentation repos. | Production schematics, routing, BOMs, Gerbers, exact pin maps, private libraries, board source, firmware integration details. | Any real board, file, net, pin, library, or manufacturing artifact. |
 | Embedded / Pico / RP2350 | Generic interface notes and reviewed reference patterns. | Production firmware, exact interface maps, credentials, private protocols, rack/RIB integration, customer wiring, site details. | Any firmware, pinout, protocol, wiring, or deployment reference. |
+| Breadboard / RIB reference | Public breadboard/reference scaffold, public-safe hardware documentation patterns, status labels, and boundary notes. | Production RIB implementation, production board files, production firmware internals, routing, BOMs, Gerbers, exact pin maps, manufacturing packages, certification, sign-off, production-ready claims, and private YOSO-YAi implementation. | Any real hardware photo, diagram, code, component list, measurement, interface note, manufacturing claim, certification claim, or production reference. |
 | Agents / harnesses | Abstract review gates, task checks, and human-authority rules. | Private prompts, tool contracts, logs, endpoints, corpora, memory, YAi/YOSO-YAi internals, customer data. | Any real prompt, tool, model route, endpoint, log, memory, or corpus. |
 | DGX / NVIDIA / fine-tuning | Public-safe workflow shapes, synthetic runbooks, template lab notes. | Rack topology, hostnames, ports, credentials, private corpora, private weights, adapters, endpoints, NIM routing, run logs. | Any infrastructure, model, dataset, result, endpoint, or log detail. |
 | Hugging Face / EPI | Templates, release checklists, planned/scaffolded status rows, EPI research scaffolds, and paper-specific EPI scaffolds. | Fake weights, fake datasets, fake Spaces, private corpora, unreleased results, unsupported benchmarks, hosted artifact claims, private harnesses, and private model workflows. | Any artifact status above planned/scaffolded. |
@@ -23,7 +24,7 @@ This file summarizes public, private, and sealed boundaries for the proof stack.
 
 ## Held Repo Rule
 
-Risky rack, DGX, agent, Fusion, KiCad production, RIB, and infrastructure repos remain held until a human-approved boundary review scopes their public updates.
+Risky rack, DGX, agent, Fusion, KiCad production, production RIB, and infrastructure repos remain held until a human-approved boundary review scopes their public updates or derivative-only replacement.
 
 ## Refusal Rule
 
