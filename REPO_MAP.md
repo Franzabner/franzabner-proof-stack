@@ -18,12 +18,12 @@ This file maps `franzabner-proof-stack` to the current Franzabner public technic
 | README/productization proof | `technical-readme-lab` | Synthetic README quality and repo-polish proof. | Live public scaffold. | Example, status, and claim review. |
 | Hugging Face readiness | `hf-card-templates` | Model card, dataset card, Space card, evaluation report, and release-checklist templates. | Live public scaffold. | No model, dataset, Space, benchmark, eval result, or hosted artifact claim without evidence. |
 | EPI spine | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Metric framing, EPI calculation/reporting scaffold, and measurement-instrument scaffold. | Merged research/tooling/hardware scaffolds. | No benchmark validity, dataset, model, Space, eval result, deployment, or hardware production claim. |
+| Paper-specific EPI | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Paper/research scaffolds for attention-head intervention, mixed quantization, and expert pruning EPI directions. | Merged paper/research scaffolds. | No released method, validated benchmark, dataset, model, Space, eval result, deployment, private harness, or proven result claim. |
 
 ## Held Repo Lanes
 
 | Lane | Held repos or examples | Hold reason |
 |---|---|---|
-| Paper-specific EPI | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Need coordinated paper-scaffold cleanup before proof routing. |
 | Mechanical / Fusion 360 | Fusion and enclosure portfolio candidates | Asset, geometry, dimensions, export, and manufacturing review required. |
 | KiCad / PCB production | KiCad libraries, production board candidates, RIB-adjacent materials | Board-source, routing, BOM, Gerber, pin map, manufacturing, and certification review required. |
 | DGX / NVIDIA / fine-tuning | DGX, NVIDIA, fine-tuning, evaluation, and lab-note candidates | Infrastructure, corpus, private weights, endpoint, log, benchmark, and result review required. |

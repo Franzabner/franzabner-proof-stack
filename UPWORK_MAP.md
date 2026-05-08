@@ -16,7 +16,7 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 | Embedded / Pico / RP2350 | Embedded interface documentation discipline. | Draft | `pico2-pio-i2c-reference` plus review for no firmware, pin-map, or production integration exposure. |
 | Field / mission-critical discipline | Field-to-architecture and operational documentation posture. | Draft | `field-to-architect` and `mission-critical-discipline` after rendered review. |
 | Agents / harnesses | AI output review gates and harness documentation. | Draft | `engineering-agent-review-gates` with no private internals. |
-| Hugging Face / EPI | Card, release-readiness, and evaluation report documentation. | Draft | `hf-card-templates`, EPI spine scaffolds, and no fake artifact claims. |
+| Hugging Face / EPI | Card, release-readiness, EPI paper-scaffold, and evaluation report documentation. | Draft | `hf-card-templates`, EPI spine scaffolds, paper-specific EPI scaffolds, and no fake artifact claims. |
 | Hardware measurement | Public-safe measurement documentation. | Draft | `epi-meter` only as scaffold; no manufacturing, certification, sign-off, or production-ready claim. |
 | Boundary review | Public/private/sealed artifact classification. | Draft | Reviewed checklists and refusal rules. |
 

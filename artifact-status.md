@@ -32,14 +32,14 @@ Future labels such as released require separate evidence and approval. They are 
 | `energy-per-intelligence` | `https://github.com/Franzabner/energy-per-intelligence` | Merged research scaffold | EPI spine alignment merged. |
 | `epi-bench` | `https://github.com/Franzabner/epi-bench` | Merged tooling scaffold | EPI spine alignment merged. |
 | `epi-meter` | `https://github.com/Franzabner/epi-meter` | Merged hardware measurement scaffold | EPI spine alignment merged. |
+| `attention-head-surgery-epi` | `https://github.com/Franzabner/attention-head-surgery-epi` | Merged paper/research scaffold | Paper-specific EPI cleanup merged. No released method, validated benchmark, model, dataset, Space, eval result, or proven result claim. |
+| `mixed-quant-epi` | `https://github.com/Franzabner/mixed-quant-epi` | Merged paper/research scaffold | Paper-specific EPI cleanup merged. No released quantization recipe, production benchmark, evaluated model, dataset, Space, or eval result claim. |
+| `expert-pruning-epi` | `https://github.com/Franzabner/expert-pruning-epi` | Merged paper/research scaffold | Paper-specific EPI cleanup merged. No released pruning workflow, deployed agent, private harness, model, dataset, Space, or eval result claim. |
 
 ## Held Artifacts
 
 | Artifact or lane | Status | Reason |
 |---|---|---|
-| `attention-head-surgery-epi` | Held | Paper-specific EPI cleanup required. |
-| `mixed-quant-epi` | Held | Paper-specific EPI cleanup required. |
-| `expert-pruning-epi` | Held | Paper-specific EPI cleanup and private workflow language review required. |
 | Rack / DGX / agent / Fusion / KiCad production / RIB / infrastructure repos | Held | Boundary review required before public proof routing. |
 
 ## Hugging Face Status Rule

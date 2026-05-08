@@ -15,7 +15,7 @@ This file records how `franzabner-proof-stack` may reference Hugging Face. Huggi
 | `engineering-agent-review-gates` | Supports release-gate discipline for AI-assisted engineering workflows. | Live public scaffold | Review-gate language only. | No private prompt, memory, tool, endpoint, corpus, or model route. |
 | `technical-readme-lab` | Supports release-readiness documentation patterns. | Live public scaffold | Documentation scaffold only. | No fake external references or service claims. |
 | EPI spine | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Merged scaffolds | Research, tooling, and measurement readiness only. | No benchmark, eval result, dataset, model, Space, hosted artifact, or release claim. |
-| Paper-specific EPI repos | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Held | No public HF routing yet. | Paper-scaffold cleanup before any HF companion language. |
+| Paper-specific EPI repos | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Merged paper/research scaffolds | GitHub paper-scaffold links only. No HF artifact exists because these repos exist. | No benchmark, eval result, dataset, model, Space, hosted artifact, or release claim. |
 | DGX / NVIDIA / fine-tuning repos | Future public-safe workflow patterns. | Held / planned | Process reference only after review. | No topology, credentials, private corpora, weights, endpoints, results, benchmarks, or logs. |
 
 ## Forbidden HF Claims

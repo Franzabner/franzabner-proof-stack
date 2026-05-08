@@ -16,7 +16,7 @@ This file records monetization-readiness routing only. It keeps future buyer edu
 | Embedded reference documentation | `pico2-pio-i2c-reference`. | Draft | No production firmware internals, pin maps, credentials, protocols, or private infrastructure. |
 | AI workflow and agent review gates | `engineering-agent-review-gates`. | Draft | Human authority remains upstream; no private prompts, memory, tools, endpoints, corpora, or logs. |
 | Hugging Face release readiness | `hf-card-templates`. | Draft | No released artifact claim without evidence and approval. |
-| EPI research documentation | `energy-per-intelligence`, `epi-bench`, `epi-meter`. | Draft | No benchmark validity, eval result, dataset, model, Space, hosted artifact, manufacturing approval, or certification claim. |
+| EPI research documentation | `energy-per-intelligence`, `epi-bench`, `epi-meter`, `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi`. | Draft | No benchmark validity, eval result, dataset, model, Space, hosted artifact, manufacturing approval, certification, released method, validated method, deployed agent, or proven result claim. |
 | Boundary cleanup | `franzabner-proof-stack` and public boundary files. | Draft | Public/private/sealed classification only. |
 
 ## Forbidden Monetization Claims

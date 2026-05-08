@@ -18,7 +18,7 @@ Status: Public scaffold. Release status: scaffolded. License pending human revie
 | EPI framing | `energy-per-intelligence` | research scaffold | Merged scaffold | No released benchmark, dataset, model, Space, eval result, or hosted artifact claim. | research-status review |
 | EPI tooling | `epi-bench` | tooling scaffold | Merged scaffold | No benchmark validity, released result, hosted artifact, or deployment claim. | prototype boundary review |
 | EPI measurement | `epi-meter` | hardware measurement scaffold | Merged scaffold | No manufacturing approval, certification, sign-off, production-ready status, approved BOM, or Gerber claim. | hardware boundary review |
-| Paper-specific EPI | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | paper scaffolds | Held | Result-oriented language needs cleanup before proof routing. | paper-scaffold review |
+| Paper-specific EPI | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | paper/research scaffolds | Merged scaffold | No released method, validated benchmark, dataset, model, Space, eval result, deployed agent, private harness, or proven result claim. | rendered README and license-posture review |
 | Risky production-adjacent repos | rack, DGX, agent, Fusion, KiCad production, RIB, infrastructure lanes | mixed artifacts | Held | May contain private implementation, topology, routing, BOMs, Gerbers, firmware internals, private corpora, weights, or endpoints. | boundary review before edit |
 
 ## Evidence Standard

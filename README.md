@@ -10,9 +10,10 @@ The proof stack has now moved from first-batch publication planning into live na
 
 - the first five public scaffolds;
 - the first safe older mechanical/electrical/embedded repo alignment batch;
-- the EPI spine research scaffold alignment batch.
+- the EPI spine research scaffold alignment batch;
+- the paper-specific EPI paper/research scaffold cleanup batch.
 
-Paper-specific EPI repos and higher-risk rack, DGX, agent, Fusion, KiCad, and production-oriented repos remain held for boundary review.
+Higher-risk rack, DGX, agent, Fusion, KiCad, and production-oriented repos remain held for boundary review.
 
 ## Proof Model
 
@@ -39,12 +40,12 @@ Paper-specific EPI repos and higher-risk rack, DGX, agent, Fusion, KiCad, and pr
 | First public scaffolds | `franzabner-proof-stack`, `public-pcb-review-checklist`, `engineering-agent-review-gates`, `hf-card-templates`, `technical-readme-lab` | Live public scaffolds. Release status: scaffolded. License pending human review. |
 | Mechanical / electrical / embedded old-repo batch | `electrical-panel-dressing`, `field-to-architect`, `mission-critical-discipline`, `pico2-pio-i2c-reference` | Public-surface alignment merged. Still scaffold/proof surfaces, not release evidence. |
 | EPI spine | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Public-surface alignment merged. Research/tooling/hardware measurement scaffolds only. |
+| Paper-specific EPI | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Public-surface alignment merged. Paper/research scaffolds only; no released method, benchmark, dataset, model, Space, eval result, deployment, validated method, or proven result claim. |
 
 ## Held Navigation
 
 | Held group | Repos or lane | Reason |
 |---|---|---|
-| Paper-specific EPI repos | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Need paper-scaffold cleanup before public proof routing. |
 | Risky production-adjacent repos | rack, DGX, agent, Fusion, KiCad production, RIB, private infrastructure lanes | Need boundary review before linking as proof. |
 | Hugging Face artifacts | models, datasets, Spaces, reports, hosted artifacts | No artifact claim without evidence and human approval. |
 | Upwork routes | service copy, rates, delivery promises, client outcomes | Draft proof routing only. |

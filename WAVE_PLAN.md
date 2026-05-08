@@ -14,7 +14,7 @@ This file records the staged rollout order for the Franzabner public technical s
 | 2 | First clean public proof stack | `public-pcb-review-checklist`, `engineering-agent-review-gates`, `hf-card-templates`, `technical-readme-lab` | Live public scaffolds. | Claim, license, artifact, and external-reference review. |
 | 3 | First safe old-repo alignment | `electrical-panel-dressing`, `field-to-architect`, `mission-critical-discipline`, `pico2-pio-i2c-reference` | Alignment branches merged to `main`. | Rendered README/status review before stronger public use. |
 | 4 | EPI spine alignment | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Alignment branches merged to `main`. | No result, benchmark, dataset, model, Space, production hardware, certification, or deployment claims. |
-| 5 | Paper-specific EPI cleanup | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Held. | Paper-scaffold rewrite and claim review. |
+| 5 | Paper-specific EPI cleanup | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Alignment PRs merged to `main`. | No released method, benchmark, dataset, model, Space, eval result, deployment, validated method, private harness, or proven result claim. |
 | 6 | Risky old-repo boundary review | rack, DGX, agent, Fusion, KiCad production, RIB, infrastructure, and private-harness-adjacent repos | Held. | Boundary review before any edit, link, PR, or proof routing. |
 | 7 | Monetization routing | proof entries, `technical-readme-lab`, draft Upwork maps | Draft only. | Human review of exact external wording. |
 
@@ -26,7 +26,8 @@ The public account should now point to:
 2. first clean public scaffolds;
 3. merged mechanical/electrical/embedded discipline repos;
 4. merged EPI spine scaffolds;
-5. held status for paper-specific and risky production-adjacent repos.
+5. merged paper-specific EPI scaffolds;
+6. held status for risky production-adjacent repos.
 
 ## Non-Authorization
 
