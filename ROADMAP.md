@@ -1,6 +1,6 @@
 # Roadmap
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## First Milestone
 
@@ -14,5 +14,5 @@ Create a usable proof-control ledger for the Wave 1 navigation hub, draft Upwork
 | 2 | Add reviewed existing repo candidates. | containment review |
 | 3 | Add planned repo rows for all six waves. | architecture review |
 | 4 | Add HF artifact rows only as planned/scaffolded unless evidence exists. | release review |
-| 5 | Add draft Upwork route rows. | Alexandra approval |
-| 6 | Stage `public-pcb-review-checklist` as the next local candidate after this repo is reviewed. | PCB boundary and license review |
+| 5 | Add draft Upwork route rows. | human review |
+| 6 | Keep `public-pcb-review-checklist` aligned as the next approved public scaffold. | PCB boundary and license review |

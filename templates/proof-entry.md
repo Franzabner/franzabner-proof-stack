@@ -16,7 +16,7 @@ Status: Draft. Use synthetic or reviewed public-safe evidence only.
 | Hugging Face connection | none / Planned / Scaffolded / Human Review Required |
 | Upwork proof route | none / Draft |
 | Review required | Human Review Required |
-| Reviewer |  |
+| Review requirement | Human review required before release claims, license changes, or external references. |
 | Review date |  |
 
 ## Refusal Check

@@ -13,7 +13,7 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 | Proof control | Public repo audit and claim/evidence organization. | Draft | Reviewed proof entries and approved claim register rows. |
 | README/productization | Technical README cleanup and repo presentation discipline. | Draft | Synthetic before/after examples and review. |
 | Mechanical / Fusion 360 | Mechanical documentation and handoff cleanup. | Draft | Public-safe synthetic or approved mechanical examples. |
-| Electrical / KiCad / PCB | PCB documentation review and report cleanup. | Draft | `public-pcb-review-checklist` staged, reviewed, and publication-approved. |
+| Electrical / KiCad / PCB | PCB documentation review and report cleanup. | Draft | `public-pcb-review-checklist` is a public scaffold; release claims and external references require human review. |
 | Embedded / Pico / RP2350 | Embedded interface documentation discipline. | Draft | Reviewed public-safe reference rows. |
 | Agents / harnesses | AI output review gates and harness documentation. | Draft | Public-safe templates with no private internals. |
 | DGX / NVIDIA / fine-tuning | AI workstation, lab-note, and evaluation documentation. | Draft | Public-safe process examples with no private infrastructure or results. |
@@ -31,4 +31,4 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 
 ## Review Gate
 
-Alexandra must approve every external Upwork-facing phrase before this map is used outside local planning.
+Human review required before release claims, license changes, or external references.

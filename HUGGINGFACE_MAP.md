@@ -1,6 +1,6 @@
 # Hugging Face Map
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Purpose
 
@@ -26,4 +26,4 @@ This file records how `franzabner-proof-stack` may reference Hugging Face in fut
 
 ## Review Requirement
 
-Any future HF row must name the artifact class, status, evidence, limitations, provenance, private exclusions, reviewer, and review date before external use.
+Any future HF row must name the artifact class, status, evidence, limitations, provenance, private exclusions, review requirement, and review date before external use.

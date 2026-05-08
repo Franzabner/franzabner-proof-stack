@@ -1,13 +1,13 @@
 # Review Checklist
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Required Files
 
 - [ ] `README.md` explains the proof-control role and the full Franzabner technical surface.
 - [ ] `STATUS.md` uses honest current labels: Scaffolded, Planned, Draft, and Human Review Required.
 - [ ] `PUBLIC_BOUNDARY.md` separates public, private, and sealed material.
-- [ ] `ROADMAP.md` keeps publication and proof expansion gated.
+- [ ] `ROADMAP.md` keeps release and proof expansion gated.
 - [ ] `CLAIMS.md` separates allowed, review-required, and forbidden claims.
 - [ ] `LICENSE_DECISION.md` records that no license has been selected.
 - [ ] `REPO_MAP.md`, `WAVE_PLAN.md`, `HUGGINGFACE_MAP.md`, `UPWORK_MAP.md`, `MONETIZATION_MAP.md`, and `BOUNDARY_MAP.md` are present and status-labeled.
@@ -25,6 +25,6 @@ Status: Scaffolded. Human Review Required before publication.
 - [ ] Hugging Face rows do not claim fake weights, datasets, Spaces, reports, benchmarks, endpoints, or released status.
 - [ ] Upwork rows remain draft proof routing and contain no pricing, turnaround promises, guarantees, client outcomes, or active offer copy.
 
-## Publication Gate
+## External Reference Gate
 
-- [ ] Human review is recorded before this scaffold is used as public profile, GitHub, Hugging Face, or Upwork proof infrastructure.
+- [ ] Human review required before release claims, profile pinning, Hugging Face references, or Upwork proof reuse.

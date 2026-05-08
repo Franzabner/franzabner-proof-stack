@@ -1,10 +1,10 @@
 # Boundary Map
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Purpose
 
-This file summarizes the public, private, and sealed boundaries for the proof stack. It is a staging review aid and does not move any private artifact into public scope.
+This file summarizes the public, private, and sealed boundaries for the proof stack. It is a public scaffold review aid and does not move any private artifact into public scope.
 
 ## Boundary Matrix
 

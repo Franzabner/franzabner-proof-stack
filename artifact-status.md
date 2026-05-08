@@ -1,25 +1,25 @@
 # Artifact Status
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Current Candidate Status Vocabulary
 
 | Status | Meaning |
 | --- | --- |
 | Planned | Repo or artifact is planned only and should not imply public availability. |
-| Scaffolded | Local scaffold exists, not published. |
+| Scaffolded | Public scaffold exists, but no released-product claim is made. |
 | Draft | Service routing or example language is internal draft material only. |
-| Human Review Required | Human approval is required before publication, license selection, or external use. |
+| Human Review Required | Human approval is required before release claims, license changes, or external references. |
 
-Future labels such as published or released require separate evidence and approval. They are not current labels for this local candidate scaffold.
+Future labels such as published or released require separate evidence and approval. They are not current labels for this public scaffold.
 
 ## Current Wave 1 Artifacts
 
-| Artifact | Location | Status | Notes |
+| Artifact | Public reference or planned role | Status | Notes |
 | --- | --- | --- | --- |
-| `franzabner` local scaffold | `/Users/alexandracaussade/civilization/franzabner-planned-repos/franzabner` | Scaffolded | Navigation hub only. |
-| `franzabner-proof-stack` local scaffold | `/Users/alexandracaussade/civilization/franzabner-planned-repos/franzabner-proof-stack` | Scaffolded | Evidence control layer. |
-| `upwork-proof-stack` local scaffold | `/Users/alexandracaussade/civilization/franzabner-planned-repos/upwork-proof-stack` | Draft | Draft proof routing only. |
+| `franzabner` navigation surface | Account/profile navigation role. | Scaffolded | Navigation hub only. |
+| `franzabner-proof-stack` public scaffold | `Franzabner/franzabner-proof-stack` | Scaffolded | Evidence control layer. |
+| `upwork-proof-stack` draft route | Future draft proof routing role. | Draft | Draft proof routing only. |
 
 ## Hugging Face Status Rule
 

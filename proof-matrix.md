@@ -1,6 +1,6 @@
 # Proof Matrix
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Matrix
 
@@ -8,9 +8,9 @@ Status: Scaffolded. Human Review Required before publication.
 | --- | --- | --- | --- | --- | --- |
 | Navigation | `franzabner` | README and proof index | Scaffolded | Identity and links require review. | approve profile language |
 | Proof control | `franzabner-proof-stack` | claim/evidence matrix | Scaffolded | No unsupported claims. | approve status vocabulary |
-| Upwork proof | `upwork-proof-stack` | draft service map | Draft | No live offer copy. | Alexandra approval |
+| Upwork proof | `upwork-proof-stack` | draft service map | Draft | No live offer copy. | human review |
 | Mechanical | `fusion360-mechanical-portfolio` | synthetic/reviewed mechanical docs | Planned | No production CAD or geometry. | asset review |
-| Electrical / PCB review | `public-pcb-review-checklist`, `kicad-electrical-portfolio` | synthetic PCB review reports and electrical docs | Planned | No production schematics, routing, BOMs, Gerbers, pin maps, board source, firmware integration, or customer files. | asset and certification-language review |
+| Electrical / PCB review | `public-pcb-review-checklist`, `kicad-electrical-portfolio` | synthetic PCB review reports and electrical docs | Scaffolded / Planned | No production schematics, routing, BOMs, Gerbers, pin maps, board source, firmware integration, or customer files. | asset and certification-language review |
 | Embedded | `pico2-reference-board-notes` and reviewed existing repos | reference notes | Planned | No production firmware, protocols, or rack integration. | link review |
 | NVIDIA/DGX | `dgx-ai-workstation-notes` | public-safe runbook notes | Planned | No topology, credentials, corpora, or weights. | infrastructure review |
 | Omniverse/USD | `omniverse-usd-worldbuilding-notes` | synthetic scene docs | Planned | No production scenes or private CAD. | asset review |
@@ -20,8 +20,8 @@ Status: Scaffolded. Human Review Required before publication.
 
 ## Evidence Standard
 
-Each future proof row should include artifact location, status, evidence summary, excluded private material, reviewer, and review date.
+Each future proof row should include artifact location, status, evidence summary, excluded private material, review requirement, and review date.
 
 ## Early Proof Priority
 
-`public-pcb-review-checklist` is the preferred next local staging candidate after this proof stack. It should demonstrate concrete electrical review discipline through synthetic or reviewed report structure, not through real board source or manufacturing files.
+`public-pcb-review-checklist` is the first concrete public scaffold aligned after this proof stack. It should demonstrate concrete electrical review discipline through synthetic or reviewed report structure, not through real board source or manufacturing files.

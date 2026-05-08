@@ -1,10 +1,10 @@
 # Claims
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
-## Allowed Claims While Local-Only
+## Allowed Claims While Scaffolded
 
-- This repo is a local scaffold for the Franzabner public proof-control layer.
+- This repo is a public scaffold for the Franzabner public proof-control layer.
 - It maps planned proof lanes across mechanical/Fusion, electrical/KiCad/PCB, embedded/Pico/RP2350, agents/harnesses, DGX/NVIDIA/fine-tuning, Omniverse/USD/3D, EPI/Hugging Face, Upwork proof routing, and public/private/sealed boundaries.
 - It defines claim, evidence, artifact status, and review records before public claims are promoted.
 

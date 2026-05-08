@@ -1,12 +1,12 @@
 # Claim Register
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Allowed Claim Patterns
 
 | Claim pattern | Status | Evidence requirement |
 | --- | --- | --- |
-| The Franzabner surface is being organized into public-safe technical lanes. | Scaffolded | Wave plan and local scaffolds. |
+| The Franzabner surface is being organized into public-safe technical lanes. | Scaffolded | Wave plan and public scaffold docs. |
 | Mechanical, electrical, embedded, DGX/NVIDIA, Omniverse/USD, agents, AI workflows, EPI/HF, and Upwork proof are planned lanes. | Planned | Repo architecture expansion docs. |
 | Hugging Face is treated as a release surface only. | Scaffolded | HF map and boundary docs. |
 | Upwork material remains draft-only until approval. | Draft | Upwork map and review gate. |

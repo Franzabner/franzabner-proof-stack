@@ -11,7 +11,7 @@ This file records monetization-readiness routing only. It keeps future buyer edu
 | Capability route | Proof source before any external use | Status | Boundary |
 | --- | --- | --- | --- |
 | Technical README and repo polish | `technical-readme-lab` and reviewed proof entries. | Draft | Synthetic examples only unless reviewed. |
-| PCB documentation review | `public-pcb-review-checklist` after local staging and human review. | Draft | No certification, sign-off, production board source, or manufacturing approval. |
+| PCB documentation review | `public-pcb-review-checklist` after public scaffold review. | Draft | No certification, sign-off, production board source, or manufacturing approval. |
 | Fusion / KiCad handoff documentation | Mechanical and electrical portfolio candidates after review. | Draft | No production CAD, KiCad source, routing, BOMs, Gerbers, exact dimensions, or private files. |
 | AI workflow and agent review gates | `engineering-agent-review-gates` and AI workflow candidates. | Draft | Human authority remains upstream; no private prompts, memory, tools, endpoints, or logs. |
 | DGX / NVIDIA / fine-tuning documentation | DGX/NVIDIA and evaluation candidates. | Draft | No private topology, credentials, corpora, weights, adapters, results, or endpoints. |
@@ -27,4 +27,4 @@ This file records monetization-readiness routing only. It keeps future buyer edu
 
 ## Review Requirement
 
-Monetization language remains draft until the human reviewer approves the exact external text and the supporting proof rows.
+Monetization language remains draft until human review approves the exact external text and the supporting proof rows.

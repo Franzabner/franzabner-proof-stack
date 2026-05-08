@@ -1,6 +1,6 @@
 # Public Boundary
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Boundary Rules
 
@@ -19,4 +19,4 @@ Status: Scaffolded. Human Review Required before publication.
 
 ## Review Trigger
 
-Any row that references a real artifact, existing repo, public profile, Hugging Face item, Upwork route, CAD/KiCad/USD asset, DGX/NVIDIA workflow, model, dataset, report, client example, Foundation context, or company context needs human review before publication.
+Any row that references a real artifact, existing repo, public profile, Hugging Face item, Upwork route, CAD/KiCad/USD asset, DGX/NVIDIA workflow, model, dataset, report, client example, Foundation context, or company context needs human review before release claims or external references.

@@ -1,10 +1,10 @@
 # Franzabner Proof Stack
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
 ## Purpose
 
-This repository is the planned proof-control layer for Francisco Abner Rivera's `Franzabner` public technical surface. It is not a generic index. It is the master map that keeps public claims tied to evidence, status, boundary review, and human approval before they appear in GitHub navigation, Hugging Face context, or draft Upwork proof routing.
+This repository is the public scaffold proof-control layer for Francisco Abner Rivera's `Franzabner` public technical surface. It is not a generic index. It is the master map that keeps public claims tied to evidence, status, boundary review, and human approval before they appear in GitHub navigation, Hugging Face context, or draft Upwork proof routing.
 
 The repo proves that the public surface is being treated as an engineering system: every repo, artifact, card, checklist, synthetic example, and future service route has to carry a status label and a public/private/sealed boundary note.
 
@@ -14,10 +14,10 @@ The repo proves that the public surface is being treated as an engineering syste
 | --- | --- |
 | `proof-matrix.md` | Maps planned proof lanes to repos, artifacts, status, and review needs. |
 | `claim-register.md` | Records allowed, draft, and forbidden claims. |
-| `CLAIMS.md` | Publication-review summary of allowed, review-required, and forbidden claim classes. |
-| `artifact-status.md` | Tracks Planned, Scaffolded, Draft, and Human Review Required labels without implying publication or release. |
+| `CLAIMS.md` | Claim-review summary of allowed, review-required, and forbidden claim classes. |
+| `artifact-status.md` | Tracks Planned, Scaffolded, Draft, and Human Review Required labels without implying release. |
 | `review-log.md` | Records human review decisions before public use. |
-| `REVIEW_CHECKLIST.md` | Gate before the proof stack can be copied into a public repo. |
+| `REVIEW_CHECKLIST.md` | Gate before the proof stack is used for external proof references. |
 | `REPO_MAP.md` | Maps planned Franzabner repos by proof lane and review gate. |
 | `WAVE_PLAN.md` | Shows the staged rollout order across navigation, hardware, agents, AI, Omniverse, and monetization routing. |
 | `HUGGINGFACE_MAP.md` | Keeps Hugging Face as a planned release surface only. |
@@ -44,11 +44,11 @@ The repo proves that the public surface is being treated as an engineering syste
 
 ## Proof Routing
 
-GitHub is the portfolio proof surface. Hugging Face is a release surface only. Upwork language remains draft proof routing until Alexandra approves external wording. This stack sits between those surfaces so a public claim cannot move forward just because a scaffold exists.
+GitHub is the portfolio proof surface. Hugging Face is a release surface only. Upwork language remains draft proof routing until human review approves external wording. This stack sits between those surfaces so a public claim cannot move forward just because a scaffold exists.
 
 ## Early Concrete Proof Route
 
-After human review of this staging copy, the next local candidate should be `public-pcb-review-checklist`. That repo is the first concrete engineering proof route because it can show PCB review discipline, KiCad-adjacent documentation judgment, severity framing, and public-safe report structure without publishing real board source or manufacturing artifacts.
+`public-pcb-review-checklist` is the first concrete engineering proof route in this public batch because it can show PCB review discipline, KiCad-adjacent documentation judgment, severity framing, and public-safe report structure without publishing real board source or manufacturing artifacts.
 
 ## Operating Rule
 
@@ -57,9 +57,9 @@ No claim is clean public proof until it has:
 - an evidence row;
 - an artifact status;
 - a public/private/sealed boundary note;
-- a reviewer or review requirement;
+- a review requirement;
 - a refusal rule for unsupported or unsafe claims.
 
-## Not Authorized
+## Scope Limits
 
-This scaffold does not authorize GitHub creation, push, commit, publication, Hugging Face artifact creation, live Upwork copy, license selection, or edits to existing cloned Franzabner repos.
+This scaffold does not authorize additional GitHub repo creation, Hugging Face artifact creation, live Upwork copy, license selection, release claims, or edits to existing cloned Franzabner repos.

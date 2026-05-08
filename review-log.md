@@ -1,10 +1,10 @@
 # Review Log
 
-Status: Scaffolded. Human Review Required before publication.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
-| Date | Item | Decision | Reviewer | Notes |
+| Date | Item | Decision | Review requirement | Notes |
 | --- | --- | --- | --- | --- |
-| 2026-05-07 | Wave 1 local scaffold creation | Scaffolded | Human Review Required | No GitHub repos, pushes, commits, HF repos, publications, or existing cloned repo edits authorized. |
+| 2026-05-07 | Wave 1 scaffold preparation | Public scaffold | Human Review Required | Prepared through a local review workflow before publication. No HF repos, live Upwork listings, release claims, or license selection authorized. |
 
 ## Required Future Reviews
 
@@ -12,5 +12,5 @@ Status: Scaffolded. Human Review Required before publication.
 - status vocabulary review for proof rows;
 - existing repo link safety review;
 - Hugging Face artifact status review;
-- Upwork wording review by Alexandra;
+- human review before any external Upwork-facing wording;
 - asset review before any CAD, KiCad, USD, DGX, model, dataset, or customer-derived example is used.

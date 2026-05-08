@@ -1,10 +1,10 @@
 # License Decision
 
-Status: Human Review Required.
+Status: Public scaffold. Release status: scaffolded. License pending human review.
 
-License decision pending human review before publication.
+License pending human review. No LICENSE file is present.
 
-No public reuse grant is implied by this local scaffold. Do not select or apply an open-source, documentation, template, data, asset, or mixed license until the proof entries, synthetic examples, boundary exclusions, and future publication path have been reviewed.
+No public reuse grant is implied by this public scaffold. Do not select or apply an open-source, documentation, template, data, asset, or mixed license until the proof entries, synthetic examples, boundary exclusions, and external reference path have been reviewed.
 
 ## Review Questions
 
