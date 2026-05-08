@@ -16,6 +16,7 @@ This file records monetization-readiness routing only. It keeps future buyer edu
 | Embedded reference documentation | `pico2-pio-i2c-reference`. | Draft | No production firmware internals, pin maps, credentials, protocols, or private infrastructure. |
 | Breadboard / hardware boundary documentation | `rib-breadboard`. | Draft | Public breadboard/reference scaffold only. No production RIB implementation, production firmware, production board files, routing, BOMs, Gerbers, pin maps, manufacturing approval, certification, sign-off, deployment, client, customer, revenue, or production-ready claim. |
 | AI workflow and agent review gates | `engineering-agent-review-gates`. | Draft | Human authority remains upstream; no private prompts, memory, tools, endpoints, corpora, or logs. |
+| Local AI lab boundary documentation | `local-ai-lab-boundary`. | Draft | Public boundary scaffold only. Synthetic examples only; no real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, live service, deployment, client, customer, or revenue claim. |
 | Hugging Face release readiness | `hf-card-templates`. | Draft | No released artifact claim without evidence and approval. |
 | EPI research documentation | `energy-per-intelligence`, `epi-bench`, `epi-meter`, `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi`. | Draft | No benchmark validity, eval result, dataset, model, Space, hosted artifact, manufacturing approval, certification, released method, validated method, deployed agent, or proven result claim. |
 | Boundary cleanup | `franzabner-proof-stack` and public boundary files. | Draft | Public/private/sealed classification only. |
@@ -24,7 +25,7 @@ This file records monetization-readiness routing only. It keeps future buyer edu
 
 - No live service copy, active availability, rates, delivery timelines, guarantees, revenue claims, or client outcomes.
 - No implication that a scaffold is a deployed system.
-- No use of Foundation operations, YOSO-YAi sealed source, customer-sensitive material, private infrastructure, private corpora, private weights, production CAD/KiCad/USD assets, or unreleased artifact results as sales proof.
+- No use of Foundation operations, YOSO-YAi sealed source, customer-sensitive material, real topology, endpoints, credentials, private prompts, private agent harnesses, private infrastructure, private corpora, private weights, production CAD/KiCad/USD assets, or unreleased artifact results as sales proof.
 
 ## Review Requirement
 

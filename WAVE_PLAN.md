@@ -16,8 +16,9 @@ This file records the staged rollout order for the Franzabner public technical s
 | 4 | EPI spine alignment | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Alignment branches merged to `main`. | No result, benchmark, dataset, model, Space, production hardware, certification, or deployment claims. |
 | 5 | Paper-specific EPI cleanup | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Alignment PRs merged to `main`. | No released method, benchmark, dataset, model, Space, eval result, deployment, validated method, private harness, or proven result claim. |
 | 6 | RIB breadboard boundary cleanup | `rib-breadboard` | Cleanup PR merged to `main`. | Public breadboard/reference scaffold only; production RIB implementation remains sealed. No production board files, firmware internals, BOMs, Gerbers, pin maps, routing, manufacturing approval, certification, sign-off, or production-ready claim. |
-| 7 | Risky old-repo boundary review | rack, DGX, agent, Fusion, KiCad production, production RIB, infrastructure, and private-harness-adjacent repos | Held or derivative-only. | Boundary review before any edit, link, PR, or proof routing. |
-| 8 | Monetization routing | proof entries, `technical-readme-lab`, draft Upwork maps | Draft only. | Human review of exact external wording. |
+| 7 | First derivative public boundary repo | `local-ai-lab-boundary` | Live public scaffold. | Synthetic-only local AI lab boundary model. No real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, or sealed YOSO-YAi IP. |
+| 8 | Risky old-repo boundary review | rack, DGX, agent, Fusion, KiCad production, production RIB, infrastructure, and private-harness-adjacent repos | Held or derivative-only. DGX/NVIDIA and fine-tuning derivative repos remain future candidates. | Boundary review before any edit, link, PR, or proof routing. |
+| 9 | Monetization routing | proof entries, `technical-readme-lab`, `local-ai-lab-boundary`, draft Upwork maps | Draft only. | Human review of exact external wording. |
 
 ## Current Navigation Priority
 
@@ -29,7 +30,8 @@ The public account should now point to:
 4. merged EPI spine scaffolds;
 5. merged paper-specific EPI scaffolds;
 6. merged RIB breadboard reference scaffold;
-7. held status for risky production-adjacent and derivative-only repos.
+7. live local AI lab boundary scaffold;
+8. held status for risky production-adjacent and remaining derivative-only repos.
 
 ## Non-Authorization
 

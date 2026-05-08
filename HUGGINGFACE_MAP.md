@@ -13,10 +13,11 @@ This file records how `franzabner-proof-stack` may reference Hugging Face. Huggi
 | `franzabner-proof-stack` | Tracks HF proof entries and release status. | Public scaffold | Planned or scaffolded release-readiness tracking only. | Artifact evidence row required. |
 | `hf-card-templates` | Provides model, dataset, report, and Space card templates. | Live public scaffold | Template language only. No artifact exists because this repo exists. | Template and status review. |
 | `engineering-agent-review-gates` | Supports release-gate discipline for AI-assisted engineering workflows. | Live public scaffold | Review-gate language only. | No private prompt, memory, tool, endpoint, corpus, or model route. |
+| `local-ai-lab-boundary` | Process and boundary reference only. | Live public scaffold | No HF artifact exists because this repo exists. It may be referenced only as a boundary model for public-safe lab documentation. | No model, dataset, Space, benchmark, eval result, hosted artifact, endpoint, private corpus, private weight, private prompt, or private harness claim. |
 | `technical-readme-lab` | Supports release-readiness documentation patterns. | Live public scaffold | Documentation scaffold only. | No fake external references or service claims. |
 | EPI spine | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Merged scaffolds | Research, tooling, and measurement readiness only. | No benchmark, eval result, dataset, model, Space, hosted artifact, or release claim. |
 | Paper-specific EPI repos | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Merged paper/research scaffolds | GitHub paper-scaffold links only. No HF artifact exists because these repos exist. | No benchmark, eval result, dataset, model, Space, hosted artifact, or release claim. |
-| DGX / NVIDIA / fine-tuning repos | Future public-safe workflow patterns. | Held / planned | Process reference only after review. | No topology, credentials, private corpora, weights, endpoints, results, benchmarks, or logs. |
+| DGX / NVIDIA / fine-tuning derivative repos | Future public-safe workflow patterns. | Held / planned | Process reference only after review. `local-ai-lab-boundary` is the live boundary model, not an HF artifact source. | No topology, credentials, private corpora, weights, endpoints, results, benchmarks, logs, models, datasets, Spaces, or hosted artifacts. |
 
 ## Forbidden HF Claims
 

@@ -17,6 +17,7 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 | Breadboard / hardware boundary documentation | Public-safe breadboard/reference documentation and hardware boundary cleanup. | Draft | `rib-breadboard` after rendered review; no production RIB source, production firmware, manufacturing, certification, sign-off, deployment, client, customer, revenue, BOM, Gerber, pin-map, routing, or production-ready claim. |
 | Field / mission-critical discipline | Field-to-architecture and operational documentation posture. | Draft | `field-to-architect` and `mission-critical-discipline` after rendered review. |
 | Agents / harnesses | AI output review gates and harness documentation. | Draft | `engineering-agent-review-gates` with no private internals. |
+| Local AI lab boundary | Public-safe local AI lab / AI workstation / agent-workflow boundary documentation. | Draft | `local-ai-lab-boundary` with synthetic-only examples and no real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, or sealed YOSO-YAi IP. |
 | Hugging Face / EPI | Card, release-readiness, EPI paper-scaffold, and evaluation report documentation. | Draft | `hf-card-templates`, EPI spine scaffolds, paper-specific EPI scaffolds, and no fake artifact claims. |
 | Hardware measurement | Public-safe measurement documentation. | Draft | `epi-meter` only as scaffold; no manufacturing, certification, sign-off, or production-ready claim. |
 | Boundary review | Public/private/sealed artifact classification. | Draft | Reviewed checklists and refusal rules. |
@@ -27,7 +28,7 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 - No rates, turnaround promises, guarantees, or active availability.
 - No client outcomes or implied customer results.
 - No Foundation material as marketing proof.
-- No sealed YOSO-YAi LLC IP, private infrastructure, production CAD/KiCad/USD assets, private corpora, private weights, or customer data as service material.
+- No sealed YOSO-YAi LLC IP, real topology, endpoints, credentials, tokens, private prompts, private agent harnesses, private infrastructure, production CAD/KiCad/USD assets, private corpora, private weights, or customer data as service material.
 
 ## Review Gate
 
