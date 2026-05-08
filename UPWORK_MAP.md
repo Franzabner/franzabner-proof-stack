@@ -9,16 +9,15 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 ## Draft Proof Routes
 
 | Proof lane | Possible future proof use | Current status | Required proof before use |
-| --- | --- | --- | --- |
-| Proof control | Public repo audit and claim/evidence organization. | Draft | Reviewed proof entries and approved claim register rows. |
-| README/productization | Technical README cleanup and repo presentation discipline. | Draft | Synthetic before/after examples and review. |
-| Mechanical / Fusion 360 | Mechanical documentation and handoff cleanup. | Draft | Public-safe synthetic or approved mechanical examples. |
-| Electrical / KiCad / PCB | PCB documentation review and report cleanup. | Draft | `public-pcb-review-checklist` is a public scaffold; release claims and external references require human review. |
-| Embedded / Pico / RP2350 | Embedded interface documentation discipline. | Draft | Reviewed public-safe reference rows. |
-| Agents / harnesses | AI output review gates and harness documentation. | Draft | Public-safe templates with no private internals. |
-| DGX / NVIDIA / fine-tuning | AI workstation, lab-note, and evaluation documentation. | Draft | Public-safe process examples with no private infrastructure or results. |
-| Hugging Face / EPI | Card, release-readiness, and evaluation report documentation. | Draft | Real artifact evidence or template-only status. |
-| Omniverse / USD / 3D worlds | USD pipeline and engineering-visualization documentation. | Draft | Synthetic scene examples and asset review. |
+|---|---|---|---|
+| Proof control | Public repo audit, claim/evidence organization, and status discipline. | Draft | Reviewed proof entries and approved claim register rows. |
+| README/productization | Technical README cleanup and repo presentation discipline. | Draft | `technical-readme-lab` examples and human review. |
+| Electrical / KiCad / PCB | PCB documentation review and report cleanup. | Draft | `public-pcb-review-checklist`, `electrical-panel-dressing`, and reviewed boundary language. |
+| Embedded / Pico / RP2350 | Embedded interface documentation discipline. | Draft | `pico2-pio-i2c-reference` plus review for no firmware, pin-map, or production integration exposure. |
+| Field / mission-critical discipline | Field-to-architecture and operational documentation posture. | Draft | `field-to-architect` and `mission-critical-discipline` after rendered review. |
+| Agents / harnesses | AI output review gates and harness documentation. | Draft | `engineering-agent-review-gates` with no private internals. |
+| Hugging Face / EPI | Card, release-readiness, and evaluation report documentation. | Draft | `hf-card-templates`, EPI spine scaffolds, and no fake artifact claims. |
+| Hardware measurement | Public-safe measurement documentation. | Draft | `epi-meter` only as scaffold; no manufacturing, certification, sign-off, or production-ready claim. |
 | Boundary review | Public/private/sealed artifact classification. | Draft | Reviewed checklists and refusal rules. |
 
 ## Constraints
@@ -31,4 +30,4 @@ This file maps proof lanes to possible future Upwork proof routes. It is not liv
 
 ## Review Gate
 
-Human review required before release claims, license changes, or external references.
+Human review required before release claims, license changes, external references, or buyer-facing language.

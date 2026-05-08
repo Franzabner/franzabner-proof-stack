@@ -9,15 +9,15 @@ This file records monetization-readiness routing only. It keeps future buyer edu
 ## Readiness Routes
 
 | Capability route | Proof source before any external use | Status | Boundary |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | Technical README and repo polish | `technical-readme-lab` and reviewed proof entries. | Draft | Synthetic examples only unless reviewed. |
-| PCB documentation review | `public-pcb-review-checklist` after public scaffold review. | Draft | No certification, sign-off, production board source, or manufacturing approval. |
-| Fusion / KiCad handoff documentation | Mechanical and electrical portfolio candidates after review. | Draft | No production CAD, KiCad source, routing, BOMs, Gerbers, exact dimensions, or private files. |
-| AI workflow and agent review gates | `engineering-agent-review-gates` and AI workflow candidates. | Draft | Human authority remains upstream; no private prompts, memory, tools, endpoints, or logs. |
-| DGX / NVIDIA / fine-tuning documentation | DGX/NVIDIA and evaluation candidates. | Draft | No private topology, credentials, corpora, weights, adapters, results, or endpoints. |
-| Hugging Face release readiness | HF template and release-boundary candidates. | Draft | No released artifact claim without evidence and approval. |
-| Omniverse / USD scene documentation | USD and 3D world candidates. | Draft | Synthetic assets only; no production scenes, private CAD, facility layouts, or customer assets. |
-| Boundary cleanup | Public hardware and release-boundary templates. | Draft | Public/private/sealed classification only. |
+| PCB documentation review | `public-pcb-review-checklist` and `electrical-panel-dressing`. | Draft | No certification, sign-off, production board source, routing, BOMs, Gerbers, pin maps, or manufacturing approval. |
+| Field / mission-critical documentation | `field-to-architect` and `mission-critical-discipline`. | Draft | No deployment, client, customer, revenue, or production claim. |
+| Embedded reference documentation | `pico2-pio-i2c-reference`. | Draft | No production firmware internals, pin maps, credentials, protocols, or private infrastructure. |
+| AI workflow and agent review gates | `engineering-agent-review-gates`. | Draft | Human authority remains upstream; no private prompts, memory, tools, endpoints, corpora, or logs. |
+| Hugging Face release readiness | `hf-card-templates`. | Draft | No released artifact claim without evidence and approval. |
+| EPI research documentation | `energy-per-intelligence`, `epi-bench`, `epi-meter`. | Draft | No benchmark validity, eval result, dataset, model, Space, hosted artifact, manufacturing approval, or certification claim. |
+| Boundary cleanup | `franzabner-proof-stack` and public boundary files. | Draft | Public/private/sealed classification only. |
 
 ## Forbidden Monetization Claims
 

@@ -7,6 +7,9 @@ Status: Public scaffold. Release status: scaffolded. License pending human revie
 - This repo is a public scaffold for the Franzabner public proof-control layer.
 - It maps planned proof lanes across mechanical/Fusion, electrical/KiCad/PCB, embedded/Pico/RP2350, agents/harnesses, DGX/NVIDIA/fine-tuning, Omniverse/USD/3D, EPI/Hugging Face, Upwork proof routing, and public/private/sealed boundaries.
 - It defines claim, evidence, artifact status, and review records before public claims are promoted.
+- The first five public scaffolds are live.
+- The first safe old-repo mechanical/electrical/embedded alignment batch is merged as scaffolded public proof.
+- The EPI spine repos are merged as research, tooling, and hardware measurement scaffolds.
 
 ## Claims Requiring Human Review
 
@@ -14,6 +17,7 @@ Status: Public scaffold. Release status: scaffolded. License pending human revie
 - Any claim that a Hugging Face model, dataset, report, Space, benchmark, endpoint, or artifact has been released.
 - Any claim that a mechanical, electrical, embedded, DGX, Omniverse/USD, model, dataset, or client-derived artifact is public-safe.
 - Any claim that a repo demonstrates a service capability beyond draft proof routing.
+- Any claim that EPI repos provide benchmark validity, evaluated results, released datasets, model weights, hosted artifacts, manufacturing approval, certification, sign-off, or deployment evidence.
 
 ## Forbidden Claims
 

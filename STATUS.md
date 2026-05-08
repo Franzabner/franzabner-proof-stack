@@ -13,7 +13,7 @@
 
 ## Current Scope
 
-This scaffold can hold proof matrix templates, claim status records, artifact status records, and review logs. It cannot convert planned material into public proof without evidence and human review.
+This scaffold can hold proof matrix templates, claim status records, artifact status records, review logs, profile navigation, and public repo routing. It can link live and merged public scaffolds, but it cannot convert scaffolded material into release proof without evidence and human review.
 
 ## Current Review Needs
 
@@ -22,4 +22,5 @@ This scaffold can hold proof matrix templates, claim status records, artifact st
 - Confirm Hugging Face rows remain planned or scaffolded unless release evidence exists.
 - Confirm Upwork proof routing remains draft and is not live offer copy.
 - Record a license decision before release claims or license changes.
-- Keep `public-pcb-review-checklist` aligned as the first concrete public scaffold in this batch.
+- Keep first public scaffolds, merged old-repo alignment batches, and EPI spine scaffolds status-accurate.
+- Keep paper-specific EPI repos and risky rack/DGX/agent/Fusion/KiCad production repos held until explicit review.

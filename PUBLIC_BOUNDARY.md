@@ -16,7 +16,10 @@ Status: Public scaffold. Release status: scaffolded. License pending human revie
 | Hugging Face | Treat as release surface only; no fake weights, datasets, Spaces, reports, benchmarks, endpoints, or released status. |
 | Upwork | Draft proof routing only; no live service language, pricing, turnaround promises, guarantees, or client outcomes. |
 | Foundation/company boundary | Foundation material is not personal marketing proof; sealed YOSO-YAi LLC source is not public evidence. |
+| EPI spine | Public EPI repos are research, tooling, and hardware measurement scaffolds only; no benchmark validity, eval result, dataset, model, Space, deployment, manufacturing approval, certification, sign-off, or hosted artifact claim. |
 
 ## Review Trigger
 
 Any row that references a real artifact, existing repo, public profile, Hugging Face item, Upwork route, CAD/KiCad/USD asset, DGX/NVIDIA workflow, model, dataset, report, client example, Foundation context, or company context needs human review before release claims or external references.
+
+Paper-specific EPI repos and risky rack, DGX, agent, Fusion, KiCad production, RIB, and infrastructure repos remain held until a human-approved boundary review scopes their public updates.

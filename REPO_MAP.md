@@ -4,32 +4,34 @@ Status: Public scaffold. Release status: scaffolded. License pending human revie
 
 ## Purpose
 
-This file maps `franzabner-proof-stack` to the planned Franzabner public technical repo system. It is a navigation and proof-control map only. It does not authorize additional GitHub repo creation, Hugging Face artifacts, Upwork listings, release claims, or unsupported external references.
+This file maps `franzabner-proof-stack` to the current Franzabner public technical repo system. It is a navigation and proof-control map only. It does not authorize additional GitHub repo creation, Hugging Face artifacts, Upwork listings, release claims, or unsupported external references.
 
-## Repo Lanes
+## Current Public Repo Lanes
 
-| Lane | Planned repo candidates | Proof role | Current status | Review gate |
-| --- | --- | --- | --- | --- |
-| Navigation | `franzabner`, `franzabner-proof-stack` | Account map and claim-control layer. | Scaffolded / Planned | Identity and status-language review. |
-| Draft proof routing | `upwork-proof-stack` | Draft-only route from public proof to possible service categories. | Draft | Human review before external wording. |
-| README/productization proof | `technical-readme-lab` | Synthetic README quality and repo-polish proof. | Planned | Example and claim review. |
-| Mechanical / Fusion 360 | `fusion360-mechanical-portfolio`, `enclosure-design-reference`, `fusion-to-omniverse-workflow-notes` | Public-safe mechanical documentation and handoff proof. | Planned | Asset and geometry review. |
-| Electrical / KiCad / PCB | `kicad-electrical-portfolio`, `public-pcb-review-checklist`, `pcb-design-boundary-template` | Electrical documentation and PCB review discipline. | Scaffolded / Planned | Board-source and certification-language review. |
-| Embedded / Pico / RP2350 | `pico2-reference-board-notes`, `embedded-systems-portfolio`, reviewed existing embedded repos | Embedded reference and interface documentation proof. | Planned | Firmware, protocol, and pin-map review. |
-| Agents / harnesses | `autonomous-engineering-harness`, `engineering-agent-review-gates`, `engineering-memory-schema`, `yai-agent-harness-template` | Public-safe agent architecture, review gates, and memory abstractions. | Planned | YAi/YOSO-YAi internal-boundary review. |
-| AI-assisted engineering | `ai-assisted-engineering-workflows`, `ai-assisted-hardware-design-workflow`, `design-to-documentation-pipeline` | Workflow discipline across hardware, documentation, and agent output. | Planned | Human-authority and private-prompt review. |
-| DGX / NVIDIA / fine-tuning | `dgx-ai-workstation-notes`, `nvidia-ai-workbench-lab`, `fine-tuning-lab-notes`, `gpu-evaluation-harness` | Public-safe workstation, runbook, evaluation, and lab-note proof. | Planned | Infrastructure, corpus, weight, and endpoint review. |
-| Hugging Face / EPI | `hf-card-templates`, `model-release-boundary-template`, `epi-research-roadmap`, `eval-report-template`, `epi-evaluation-harness` | Release-readiness templates and evaluation documentation. | Planned / Scaffolded | Artifact evidence and release review. |
-| Omniverse / USD / 3D worlds | `omniverse-usd-worldbuilding-notes`, `usd-scene-pipeline-template`, `engineering-3d-world-public-demo` | Synthetic scene, USD pipeline, and engineering-visualization proof. | Planned | CAD, scene, asset, and facility-layout review. |
-| Public boundary control | `public-hardware-boundary-template`, `model-release-boundary-template`, `hf-release-readiness-checklist` | Boundary checklists before public artifacts move outward. | Planned / Scaffolded | Human approval required. |
+| Lane | Repos | Proof role | Current status | Review gate |
+|---|---|---|---|---|
+| Navigation | `Franzabner`, `franzabner-proof-stack` | Account front door and claim-control layer. | Live public scaffold. | Identity, status-language, and boundary review. |
+| Electrical / KiCad / PCB | `public-pcb-review-checklist`, `electrical-panel-dressing` | Electrical review discipline, panel documentation posture, and public-safe checklist structure. | Live / merged scaffold. | Board-source, routing, BOM, Gerber, pin-map, certification, and sign-off review. |
+| Field / mission-critical discipline | `field-to-architect`, `mission-critical-discipline` | Field-to-architecture translation and mission-critical documentation discipline. | Merged scaffold. | No deployment, client, customer, revenue, or production claim without review. |
+| Embedded / Pico / RP2350 | `pico2-pio-i2c-reference` | Embedded reference workflow and interface documentation proof. | Merged scaffold. | Firmware, protocol, pin-map, and production integration review. |
+| Agents / review gates | `engineering-agent-review-gates` | AI-assisted engineering review gates and human authority discipline. | Live public scaffold. | No private prompt, memory, tool, endpoint, corpus, or harness exposure. |
+| README/productization proof | `technical-readme-lab` | Synthetic README quality and repo-polish proof. | Live public scaffold. | Example, status, and claim review. |
+| Hugging Face readiness | `hf-card-templates` | Model card, dataset card, Space card, evaluation report, and release-checklist templates. | Live public scaffold. | No model, dataset, Space, benchmark, eval result, or hosted artifact claim without evidence. |
+| EPI spine | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Metric framing, EPI calculation/reporting scaffold, and measurement-instrument scaffold. | Merged research/tooling/hardware scaffolds. | No benchmark validity, dataset, model, Space, eval result, deployment, or hardware production claim. |
 
-## First Concrete Engineering Proof Candidate
+## Held Repo Lanes
 
-`public-pcb-review-checklist` should follow this proof stack after human review. It is concrete enough to show electrical/PCB review discipline, but it can remain public-safe because it can use synthetic review packets and does not require real KiCad source, board routing, BOMs, Gerbers, exact pin maps, firmware integration, or customer files.
+| Lane | Held repos or examples | Hold reason |
+|---|---|---|
+| Paper-specific EPI | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Need coordinated paper-scaffold cleanup before proof routing. |
+| Mechanical / Fusion 360 | Fusion and enclosure portfolio candidates | Asset, geometry, dimensions, export, and manufacturing review required. |
+| KiCad / PCB production | KiCad libraries, production board candidates, RIB-adjacent materials | Board-source, routing, BOM, Gerber, pin map, manufacturing, and certification review required. |
+| DGX / NVIDIA / fine-tuning | DGX, NVIDIA, fine-tuning, evaluation, and lab-note candidates | Infrastructure, corpus, private weights, endpoint, log, benchmark, and result review required. |
+| Agents / harnesses | private harness, memory schema, autonomous engineering candidates | Private prompt, tool, memory, corpus, endpoint, and sealed YOSO-YAi boundary review required. |
+| Omniverse / USD / 3D worlds | USD scene, worldbuilding, and 3D engineering candidates | Scene, private CAD, product geometry, facility, and asset review required. |
 
 ## Review Notes
 
-- Planned repo names are not live links.
-- Exact repo creation remains pending human approval.
-- Existing Franzabner repos need containment review before they become proof entries.
+- Live links do not imply released products.
+- Public-surface alignment does not imply customer use, deployment, revenue, manufacturing approval, certification, sign-off, model release, dataset release, Space release, benchmark validity, eval result, or hosted artifact status.
 - Public evidence must be synthetic, reviewed, or already approved for public use.

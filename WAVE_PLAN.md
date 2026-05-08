@@ -4,22 +4,29 @@ Status: Public scaffold. Release status: scaffolded. License pending human revie
 
 ## Purpose
 
-This file records the staged planning order for the Franzabner public technical surface. This repository was prepared through a local review workflow before publication. It preserves the full cross-discipline vision while keeping new repo creation, Hugging Face release, and Upwork use gated by human review.
+This file records the staged rollout order for the Franzabner public technical surface. Completed waves identify public navigation or merged scaffold alignment only. They do not create release, deployment, client, manufacturing, certification, model, dataset, Space, benchmark, eval-result, or hosted-artifact claims.
 
 ## Waves
 
-| Wave | Focus | Candidate repos | Why it comes here | Gate |
-| --- | --- | --- | --- | --- |
-| 1 | Navigation and proof control | `franzabner`, `franzabner-proof-stack`, `upwork-proof-stack` | Establishes identity, status vocabulary, claim control, and draft proof routing before technical proof expands. | Human review of status, boundaries, and license path. |
-| 2 | Mechanical / Fusion 360 and electrical / KiCad / PCB | `public-pcb-review-checklist`, `fusion360-mechanical-portfolio`, `kicad-electrical-portfolio`, `enclosure-design-reference` | Adds concrete engineering proof while keeping CAD, board source, manufacturing files, and production geometry sealed. | Asset, board-source, and certification-language review. |
-| 3 | Agents and AI-assisted engineering | `engineering-agent-review-gates`, `ai-assisted-engineering-workflows`, `autonomous-engineering-harness`, `engineering-memory-schema` | Shows agent and AI workflow discipline without exposing private YAi/YOSO-YAi implementation. | Human authority, prompt, memory, tool, and corpus review. |
-| 4 | DGX / NVIDIA / fine-tuning / evaluation | `dgx-ai-workstation-notes`, `nvidia-ai-workbench-lab`, `fine-tuning-lab-notes`, `eval-report-template` | Makes local AI lab and evaluation documentation visible without exposing private infrastructure or artifacts. | Topology, endpoint, corpus, weight, result, and benchmark review. |
-| 5 | Omniverse / USD / 3D worlds | `omniverse-usd-worldbuilding-notes`, `usd-scene-pipeline-template`, `engineering-3d-world-public-demo`, `fusion-to-omniverse-workflow-notes` | Adds public-safe 3D engineering visualization after CAD and asset boundaries are explicit. | Scene, geometry, facility, texture, and asset review. |
-| 6 | Monetization routing | `technical-readme-lab`, `upwork-proof-stack`, selected proof entries | Routes reviewed proof toward future services without publishing live offers or unsupported claims. | Human review of every external phrase. |
+| Wave | Focus | Repos | Current state | Gate |
+|---|---|---|---|---|
+| 1 | Navigation and proof control | `Franzabner`, `franzabner-proof-stack` | Live profile and proof-control scaffold. | Identity, status, boundary, and license-path review. |
+| 2 | First clean public proof stack | `public-pcb-review-checklist`, `engineering-agent-review-gates`, `hf-card-templates`, `technical-readme-lab` | Live public scaffolds. | Claim, license, artifact, and external-reference review. |
+| 3 | First safe old-repo alignment | `electrical-panel-dressing`, `field-to-architect`, `mission-critical-discipline`, `pico2-pio-i2c-reference` | Alignment branches merged to `main`. | Rendered README/status review before stronger public use. |
+| 4 | EPI spine alignment | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Alignment branches merged to `main`. | No result, benchmark, dataset, model, Space, production hardware, certification, or deployment claims. |
+| 5 | Paper-specific EPI cleanup | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Held. | Paper-scaffold rewrite and claim review. |
+| 6 | Risky old-repo boundary review | rack, DGX, agent, Fusion, KiCad production, RIB, infrastructure, and private-harness-adjacent repos | Held. | Boundary review before any edit, link, PR, or proof routing. |
+| 7 | Monetization routing | proof entries, `technical-readme-lab`, draft Upwork maps | Draft only. | Human review of exact external wording. |
 
-## Immediate Next Candidate
+## Current Navigation Priority
 
-`public-pcb-review-checklist` is the next approved public scaffold in this first batch. Future proof expansion still requires license, claim, boundary, and external-reference review.
+The public account should now point to:
+
+1. proof navigation;
+2. first clean public scaffolds;
+3. merged mechanical/electrical/embedded discipline repos;
+4. merged EPI spine scaffolds;
+5. held status for paper-specific and risky production-adjacent repos.
 
 ## Non-Authorization
 
