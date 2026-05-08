@@ -18,8 +18,9 @@ This file records the staged rollout order for the Franzabner public technical s
 | 6 | RIB breadboard boundary cleanup | `rib-breadboard` | Cleanup PR merged to `main`. | Public breadboard/reference scaffold only; production RIB implementation remains sealed. No production board files, firmware internals, BOMs, Gerbers, pin maps, routing, manufacturing approval, certification, sign-off, or production-ready claim. |
 | 7 | First derivative public boundary repo | `local-ai-lab-boundary` | Live public scaffold. | Synthetic-only local AI lab boundary model. No real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, or sealed YOSO-YAi IP. |
 | 8 | Second derivative public DGX/workstation notes repo | `dgx-ai-workstation-notes` | Live public scaffold. | Public-safe DGX/NVIDIA/workstation workflow notes. Synthetic-only examples. No real topology, hostnames, IPs, endpoints, credentials, tokens, Tailscale, SSH, Forgejo, n8n, LiteLLM, NIM details, private corpora, private weights, private prompts, private agent harnesses, sealed YOSO-YAi IP, model, dataset, Space, training run, model output, or hosted artifact claim. |
-| 9 | Risky old-repo boundary review | rack, agent, Fusion, KiCad production, production RIB, infrastructure, and private-harness-adjacent repos | Held or derivative-only. Fine-tuning derivative repos remain future candidates. | Boundary review before any edit, link, PR, or proof routing. |
-| 10 | Monetization routing | proof entries, `technical-readme-lab`, `local-ai-lab-boundary`, `dgx-ai-workstation-notes`, draft Upwork maps | Draft only. | Human review of exact external wording. |
+| 9 | Third derivative fine-tuning lab notes repo | `fine-tuning-lab-notes` | Live public scaffold. | Public-safe fine-tuning lab-note scaffold. Synthetic-only examples. Dataset prep boundary, model release gate, evaluation note template, and Hugging Face planned/template-only routing. No private corpora, private weights, training logs, eval results, model, dataset, Space, hosted artifact, real training run, model output, or HF action claim. |
+| 10 | Risky old-repo boundary review | rack, agent, Fusion, KiCad production, production RIB, infrastructure, and private-harness-adjacent repos | Held or derivative-only. | Boundary review before any edit, link, PR, or proof routing. |
+| 11 | Monetization routing | proof entries, `technical-readme-lab`, `local-ai-lab-boundary`, `dgx-ai-workstation-notes`, `fine-tuning-lab-notes`, draft Upwork maps | Draft only. | Human review of exact external wording. |
 
 ## Current Navigation Priority
 
@@ -33,7 +34,8 @@ The public account should now point to:
 6. merged RIB breadboard reference scaffold;
 7. live local AI lab boundary scaffold;
 8. live DGX/NVIDIA workstation notes scaffold;
-9. held status for risky production-adjacent and remaining derivative-only repos.
+9. live fine-tuning lab-note scaffold;
+10. held status for risky production-adjacent and remaining derivative-only repos.
 
 ## Non-Authorization
 
