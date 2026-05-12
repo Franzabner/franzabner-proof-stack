@@ -19,8 +19,9 @@ This file records the staged rollout order for the Franzabner public technical s
 | 7 | First derivative public boundary repo | `local-ai-lab-boundary` | Live public scaffold. | Synthetic-only local AI lab boundary model. No real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, or sealed YOSO-YAi IP. |
 | 8 | Second derivative public DGX/workstation notes repo | `dgx-ai-workstation-notes` | Live public scaffold. | Public-safe DGX/NVIDIA/workstation workflow notes. Synthetic-only examples. No real topology, hostnames, IPs, endpoints, credentials, tokens, Tailscale, SSH, Forgejo, n8n, LiteLLM, NIM details, private corpora, private weights, private prompts, private agent harnesses, sealed YOSO-YAi IP, model, dataset, Space, training run, model output, or hosted artifact claim. |
 | 9 | Third derivative fine-tuning lab notes repo | `fine-tuning-lab-notes` | Live public scaffold. | Public-safe fine-tuning lab-note scaffold. Synthetic-only examples. Dataset prep boundary, model release gate, evaluation note template, and Hugging Face planned/template-only routing. No private corpora, private weights, training logs, eval results, model, dataset, Space, hosted artifact, real training run, model output, or HF action claim. |
-| 10 | Risky old-repo boundary review | rack, agent, Fusion, KiCad production, production RIB, infrastructure, and private-harness-adjacent repos | Held or derivative-only. | Boundary review before any edit, link, PR, or proof routing. |
-| 11 | Monetization routing | proof entries, `technical-readme-lab`, `local-ai-lab-boundary`, `dgx-ai-workstation-notes`, `fine-tuning-lab-notes`, draft Upwork maps | Draft only. | Human review of exact external wording. |
+| 10 | Evidence-boundary simulation repo | `field-propulsion-observatory` | Live public scaffold. | Public-safe engineering documentation and lightweight simulation scaffold for anomalous-motion evidence frameworks, sensor metadata schemas, trajectory/uncertainty reasoning, and hypothesis-boundary mapping. Synthetic examples only. No exotic propulsion claim, real case claim, Hugging Face artifact, or Upwork listing. |
+| 11 | Risky old-repo boundary review | rack, agent, Fusion, KiCad production, production RIB, infrastructure, private-harness-adjacent repos, and real-case analysis lanes | Held or derivative-only. | Boundary review before any edit, link, PR, proof routing, real case analysis, or stronger propulsion language. |
+| 12 | Monetization routing | proof entries, `technical-readme-lab`, `local-ai-lab-boundary`, `dgx-ai-workstation-notes`, `fine-tuning-lab-notes`, `field-propulsion-observatory`, draft Upwork maps | Draft only. | Human review of exact external wording. |
 
 ## Current Navigation Priority
 
@@ -35,7 +36,8 @@ The public account should now point to:
 7. live local AI lab boundary scaffold;
 8. live DGX/NVIDIA workstation notes scaffold;
 9. live fine-tuning lab-note scaffold;
-10. held status for risky production-adjacent and remaining derivative-only repos.
+10. live field propulsion observatory evidence-boundary simulation scaffold;
+11. held status for risky production-adjacent, real-case analysis, and remaining derivative-only repos.
 
 ## Non-Authorization
 
