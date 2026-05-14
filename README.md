@@ -32,7 +32,7 @@ This repository is a control layer. It does not release products, create umbrell
 
 ## 17-Repo Architecture
 
-The approved production architecture contains two control/navigation repositories, four public scaffold Phase 2/3 repositories, and 11 still-planned umbrella repositories.
+The approved production architecture contains two control/navigation repositories, six public scaffold Phase 2/3/4 repositories, and 9 still-planned umbrella repositories.
 
 | Repo | Category | Current status |
 | --- | --- | --- |
@@ -42,8 +42,8 @@ The approved production architecture contains two control/navigation repositorie
 | [`cad-mechanical-design-lab`](https://github.com/Franzabner/cad-mechanical-design-lab) | Mechanical CAD | `scaffolded`; public scaffold only, not released. |
 | [`electrical-controls-architecture`](https://github.com/Franzabner/electrical-controls-architecture) | Electrical controls | `scaffolded`; public scaffold only, not released. |
 | [`embedded-hardware-lab`](https://github.com/Franzabner/embedded-hardware-lab) | Embedded hardware | `scaffolded`; public scaffold only, not released. |
-| `engineering-simulation-lab` | Simulation and validation | `planned`; do not create in Phase 1. |
-| `data-model-infrastructure` | Data/model infrastructure | `planned`; do not create in Phase 1. |
+| [`engineering-simulation-lab`](https://github.com/Franzabner/engineering-simulation-lab) | Simulation and validation | `scaffolded`; public scaffold only, not released. |
+| [`data-model-infrastructure`](https://github.com/Franzabner/data-model-infrastructure) | Data/model infrastructure | `scaffolded`; public scaffold only, not released. |
 | `infrastructure-energy-studies` | Energy studies | `planned`; do not create in Phase 1. |
 | `civic-infrastructure-production-systems` | Civic production systems | `planned`; do not create in Phase 1. |
 | `engineering-standards-and-validation` | Standards and validation | `planned`; do not create in Phase 1. |
@@ -63,8 +63,8 @@ The approved production architecture contains two control/navigation repositorie
 | Mechanical CAD | Fusion 360, enclosure, rack geometry, ducting, mounting, serviceability, and manufacturing assumptions. | Public scaffold exists; no production CAD, release, deployment, certification, or proof-completion claim. |
 | Electrical controls | Field-grade power, sensing, actuation, control narratives, and commissioning logic. | Public scaffold exists; no release, deployment, certification, production schematic, manufacturing-readiness, or proof-completion claim. |
 | Embedded hardware | PCB, firmware, MCU, breadboard, management-bus, and validation patterns. | Public scaffold exists; no release, deployment, certification, production board source, private firmware, manufacturing-readiness, or proof-completion claim. |
-| Simulation and validation | Assumptions, models, outputs, limits, reports, and validation paths. | `planned`; no repo creation. |
-| Data/model infrastructure | Source capture, schemas, vector indexes, datasets, fine-tuning, evals, model/dataset cards, and DGX boundaries. | `planned`; no repo creation. |
+| Simulation and validation | Assumptions, models, outputs, limits, reports, and validation paths. | Public scaffold exists; no release, deployment, certification, benchmark result, physical-validation, or proof-completion claim. |
+| Data/model infrastructure | Source capture, schemas, vector indexes, datasets, fine-tuning, evals, model/dataset cards, and DGX boundaries. | Public scaffold exists; no model release, dataset release, Space release, fine-tuned model availability, benchmark result, deployment, certification, or proof-completion claim. |
 | Energy studies | Water-current-to-electricity, solar-to-hydrogen, storage, conversion, control, and safety boundaries. | `planned`; no repo creation. |
 | Civic production systems | Foundation-adjacent production studies without speaking as the Foundation. | `planned`; no repo creation. |
 | Standards and validation | Safety, commissioning, acceptance criteria, risk registers, and standard-aware templates. | `planned`; no repo creation. |
@@ -120,6 +120,8 @@ Current control-repo routing is limited to public scaffold links for:
 - [`modular-infrastructure-studies`](https://github.com/Franzabner/modular-infrastructure-studies);
 - [`cad-mechanical-design-lab`](https://github.com/Franzabner/cad-mechanical-design-lab);
 - [`electrical-controls-architecture`](https://github.com/Franzabner/electrical-controls-architecture);
-- [`embedded-hardware-lab`](https://github.com/Franzabner/embedded-hardware-lab).
+- [`embedded-hardware-lab`](https://github.com/Franzabner/embedded-hardware-lab);
+- [`engineering-simulation-lab`](https://github.com/Franzabner/engineering-simulation-lab);
+- [`data-model-infrastructure`](https://github.com/Franzabner/data-model-infrastructure).
 
-The next human review should decide whether the Phase 2/3 public scaffold routes are safe to push from the control repositories and whether any can later be promoted beyond `scaffolded`.
+The next human review should decide whether the Phase 2/3/4 public scaffold routes are safe to push from the control repositories and whether any can later be promoted beyond `scaffolded`.
