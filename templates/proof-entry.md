@@ -1,24 +1,44 @@
 # Proof Entry Template
 
-Status: Draft. Use synthetic or reviewed public-safe evidence only.
+Status: `scaffolded` template  
+Use only synthetic or reviewed public-safe evidence.
 
-## Proof Entry
+## Required Fields
 
 | Field | Value |
 | --- | --- |
 | Claim |  |
-| Proof lane |  |
-| Source repo/artifact |  |
-| Artifact status | Planned / Scaffolded / Draft / Human Review Required |
+| Claim class | identity / repo existence / documentation discipline / artifact / validation / release / boundary / review |
+| Source repository |  |
+| Source artifact |  |
+| Artifact class | README / template / matrix / diagram / script / report / card / notebook / render / checklist / other |
+| Artifact presence | present / absent |
+| Status | `planned` / `scaffolded` / `published` / `released` / `paused` / `deprecated` / `private/not-public` |
 | Evidence summary |  |
+| Validation method |  |
+| Boundary class | public / private / sealed / mixed |
 | Public-safe content |  |
-| Private/sealed exclusions |  |
-| Hugging Face connection | none / Planned / Scaffolded / Human Review Required |
-| Upwork proof route | none / Draft |
-| Review required | Human Review Required |
-| Review requirement | Human review required before release claims, license changes, or external references. |
+| Private or sealed exclusions |  |
+| Entity owner | personal / YOSO-YAi LLC / YOSOR / 218 Network Foundation / client / mixed |
+| Canonical source host | Forgejo / GitHub / Hugging Face / not applicable |
+| GitHub role | public mirror / deployment source / portfolio surface / open-source surface / not applicable |
+| Hugging Face role | release surface / none / not applicable |
+| Human review state | pending / approved / rejected / needs changes |
 | Review date |  |
+| Next action |  |
 
-## Refusal Check
+## Required Refusal Checks
 
-Do not use this entry if the evidence requires private implementation, customer data, production CAD/KiCad/USD assets, DGX topology, private corpora, private weights, Foundation private operations, or sealed YOSO-YAi LLC IP.
+Do not use this entry as public proof if it depends on:
+
+- private implementation;
+- customer or client data;
+- donor, student, volunteer, or Foundation-private data;
+- production CAD, KiCad, PCB, firmware, BOM, Gerber, pin-map, rack, or topology material;
+- DGX topology, credentials, tokens, endpoints, private corpora, weights, adapters, training logs, eval results, or private prompts;
+- sealed YOSO-YAi LLC IP;
+- unsupported product, deployment, service, certification, revenue, benchmark, model, dataset, Space, or autonomous production-agent claims.
+
+## Required Completion Rule
+
+A proof entry is incomplete until it names status, owner, artifact, validation method, boundary class, evidence state, review state, and next action.

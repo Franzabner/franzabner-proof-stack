@@ -1,53 +1,42 @@
 # Artifact Status
 
-Status: Public scaffold. Release status: scaffolded. License pending human review.
+Status: `scaffolded` locally after Phase 1 patch  
+Purpose: artifact availability and release-state control
 
-## Current Status Vocabulary
+## Status Vocabulary
 
-| Status | Meaning |
-|---|---|
-| Live public scaffold | Public repo exists and can be linked as a scaffold/proof surface. |
-| Merged scaffold | Public-surface alignment has been merged to `main`; this still does not imply release status. |
-| Planned | Repo or artifact is planned only and should not imply public availability. |
-| Draft | Service routing or example language is internal draft material only. |
-| Held | Existing repo or lane requires human review before edit, link, PR, merge, or proof routing. |
-| Human Review Required | Human approval is required before release claims, license changes, or external references. |
+Use only these approved top-level labels: `planned`, `scaffolded`, `published`, `released`, `paused`, `deprecated`, and `private/not-public`.
 
-Future labels such as released require separate evidence and approval. They are not current labels for this public scaffold.
+Artifact presence may be described as present or absent, but the status field must stay within the approved vocabulary.
 
-## Current Public Artifacts
+## Phase 1 Artifact Table
 
-| Artifact | Public reference | Status | Notes |
-|---|---|---|---|
-| `Franzabner` profile | `https://github.com/Franzabner` | Live public scaffold | Public front door. |
-| `franzabner-proof-stack` | `https://github.com/Franzabner/franzabner-proof-stack` | Live public scaffold | Evidence control layer. |
-| `public-pcb-review-checklist` | `https://github.com/Franzabner/public-pcb-review-checklist` | Live public scaffold | Electrical / PCB review proof surface. |
-| `engineering-agent-review-gates` | `https://github.com/Franzabner/engineering-agent-review-gates` | Live public scaffold | AI-assisted engineering review gates. |
-| `hf-card-templates` | `https://github.com/Franzabner/hf-card-templates` | Live public scaffold | Template-only HF release-readiness surface. |
-| `technical-readme-lab` | `https://github.com/Franzabner/technical-readme-lab` | Live public scaffold | README/productization proof surface. |
-| `electrical-panel-dressing` | `https://github.com/Franzabner/electrical-panel-dressing` | Merged scaffold | Old-repo alignment merged. |
-| `field-to-architect` | `https://github.com/Franzabner/field-to-architect` | Merged scaffold | Old-repo alignment merged. |
-| `mission-critical-discipline` | `https://github.com/Franzabner/mission-critical-discipline` | Merged scaffold | Old-repo alignment merged. |
-| `pico2-pio-i2c-reference` | `https://github.com/Franzabner/pico2-pio-i2c-reference` | Merged scaffold | Old-repo alignment merged. |
-| `rib-breadboard` | `https://github.com/Franzabner/rib-breadboard` | Merged breadboard/reference scaffold | Public-boundary cleanup merged. Production RIB implementation remains sealed. No production board files, firmware internals, BOMs, Gerbers, pin maps, routing, manufacturing approval, certification, sign-off, deployment, client, customer, revenue, or production-ready claim. |
-| `local-ai-lab-boundary` | `https://github.com/Franzabner/local-ai-lab-boundary` | Live public scaffold | First derivative public boundary repo. Public-safe local AI lab boundary model with synthetic-only examples. No real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, sealed YOSO-YAi IP, Hugging Face artifact, or live service claim. |
-| `dgx-ai-workstation-notes` | `https://github.com/Franzabner/dgx-ai-workstation-notes` | Live public scaffold | Second derivative public repo. Public-safe DGX/NVIDIA/workstation workflow notes with synthetic-only examples. No real topology, hostnames, IPs, endpoints, credentials, tokens, Tailscale, SSH, Forgejo, n8n, LiteLLM, NIM details, private corpora, private weights, private prompts, private agent harnesses, sealed YOSO-YAi IP, model, dataset, Space, training run, model output, hosted artifact, or live service claim. |
-| `fine-tuning-lab-notes` | `https://github.com/Franzabner/fine-tuning-lab-notes` | Live public scaffold | Third derivative public repo. Public-safe fine-tuning lab-note scaffold with synthetic-only examples, dataset prep boundary, model release gate, evaluation note template, and Hugging Face planned/template-only routing. No private corpora, private weights, training logs, eval results, model, dataset, Space, hosted artifact, real training run, model output, HF action, or live service claim. |
-| `field-propulsion-observatory` | `https://github.com/Franzabner/field-propulsion-observatory` | Live public scaffold | Public-safe engineering documentation and lightweight simulation repo for anomalous-motion evidence frameworks, sensor metadata schemas, trajectory/uncertainty reasoning, and hypothesis-boundary mapping. Synthetic examples only. No exotic propulsion claim, real case claim, Hugging Face artifact, Upwork listing, released dataset, model, Space, benchmark, eval result, or verified propulsion claim. |
-| `s2h-g-control-ledger` | `https://github.com/Franzabner/s2h-g-control-ledger` | Live public proof surface | S2H-G Control Ledger. Controlled solar hydrogen logic, simulated before silicon. Public proof surface for a proprietary simulation-first energy-control project. Implementation withheld. All rights reserved. No public simulator implementation, public reuse license, generation-guide claim, Hugging Face artifact, Upwork listing, deployment, client, customer, or revenue claim. |
-| `energy-per-intelligence` | `https://github.com/Franzabner/energy-per-intelligence` | Merged research scaffold | EPI spine alignment merged. |
-| `epi-bench` | `https://github.com/Franzabner/epi-bench` | Merged tooling scaffold | EPI spine alignment merged. |
-| `epi-meter` | `https://github.com/Franzabner/epi-meter` | Merged hardware measurement scaffold | EPI spine alignment merged. |
-| `attention-head-surgery-epi` | `https://github.com/Franzabner/attention-head-surgery-epi` | Merged paper/research scaffold | Paper-specific EPI cleanup merged. No released method, validated benchmark, model, dataset, Space, eval result, or proven result claim. |
-| `mixed-quant-epi` | `https://github.com/Franzabner/mixed-quant-epi` | Merged paper/research scaffold | Paper-specific EPI cleanup merged. No released quantization recipe, production benchmark, evaluated model, dataset, Space, or eval result claim. |
-| `expert-pruning-epi` | `https://github.com/Franzabner/expert-pruning-epi` | Merged paper/research scaffold | Paper-specific EPI cleanup merged. No released pruning workflow, deployed agent, private harness, model, dataset, Space, or eval result claim. |
+| Repo or artifact | Artifact presence | Status | Public/release state | Review need |
+| --- | --- | --- | --- | --- |
+| `Franzabner` profile file set | Present locally after Phase 1 patch. | `scaffolded` | Local patch only; not pushed or newly published by Phase 1. | Human review before push or public routing update. |
+| `franzabner-proof-stack` file set | Present locally after Phase 1 patch. | `scaffolded` | Local patch only; not pushed or newly published by Phase 1. | Human review before push or public routing update. |
+| `modular-infrastructure-studies` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `cad-mechanical-design-lab` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `electrical-controls-architecture` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `embedded-hardware-lab` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `engineering-simulation-lab` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `data-model-infrastructure` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `infrastructure-energy-studies` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `civic-infrastructure-production-systems` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval and Foundation-boundary review before creation. |
+| `engineering-standards-and-validation` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `engineering-security-boundary` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `engineering-deliverables-template` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `application-development-systems` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `immersive-access-systems` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `automated-engineering-systems` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| `agentic-engineering-workforce` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| Existing supporting narrow repos | Not changed by Phase 1. | `private/not-public` unless a separate repo review confirms `planned`, `scaffolded`, `published`, `released`, `paused`, or `deprecated`. | No upgrade, publication, archive, transfer, rename, or visibility change from this patch. | Separate repo-by-repo status, claim, and boundary review. |
+| Hugging Face models, datasets, Spaces, cards, collections, or profile metadata | Not changed by Phase 1. | `private/not-public` unless separate release-surface review confirms `planned`, `scaffolded`, `published`, or `released`. | No metadata change, release, hosted artifact, benchmark, eval result, model output, or Space claim. | Separate release-surface review. |
 
-## Held Artifacts
+## Release Rule
 
-| Artifact or lane | Status | Reason |
-|---|---|---|
-| Rack / agent / Fusion / KiCad production / production RIB / infrastructure repos | Held or derivative-only | Boundary review required before public proof routing. |
+`released` requires a reviewed public artifact with evidence, limitations, companion links, and approval. Phase 1 does not release any product, model, dataset, Space, benchmark, eval result, report, deployment, service, or hardware artifact.
 
-## Hugging Face Status Rule
+## Publication Rule
 
-Existing or planned HF references remain Planned, Scaffolded, or Template-only unless a public artifact exists with evidence, limitations, review, Franzabner HF auth, and approval. No model, dataset, Space, benchmark, eval result, hosted model, or hosted dataset claim is made here.
+This file may describe local scaffolded files. It does not publish those files, push changes, update GitHub metadata, update Hugging Face metadata, or approve public use.

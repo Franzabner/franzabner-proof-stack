@@ -1,77 +1,123 @@
 # Franzabner Proof Stack
 
-Status: Public scaffold. Release status: scaffolded. License pending human review.
-
-## Purpose
-
-This repository is the public proof-control layer for Francisco Abner Rivera's `Franzabner` technical surface. It keeps public claims tied to live repositories, artifact status, boundary review, and human approval before those claims move into profile navigation, Hugging Face context, or draft Upwork proof routing.
-
-The proof stack has now moved from first-batch publication planning into live navigation for:
-
-- the first five public scaffolds;
-- the first safe older mechanical/electrical/embedded repo alignment batch;
-- the EPI spine research scaffold alignment batch;
-- the paper-specific EPI paper/research scaffold cleanup batch.
-- the RIB breadboard public-boundary cleanup as a breadboard/reference scaffold.
-- the first derivative public boundary repo, `local-ai-lab-boundary`.
-- the second derivative public repo, `dgx-ai-workstation-notes`.
-- the third derivative public repo, `fine-tuning-lab-notes`.
-- the public-safe engineering documentation and simulation repo, `field-propulsion-observatory`.
-- the public proof surface for a proprietary simulation-first energy-control project, `s2h-g-control-ledger`.
-
-Higher-risk rack, agent, Fusion, KiCad, production RIB, and production-oriented repos remain held for boundary review or derivative-only planning. `local-ai-lab-boundary` provides the public-safe boundary model that replaces pressure to expose real studio, lab, dotfiles, endpoint, credential, private prompt, private corpus, private weight, or private harness material. `dgx-ai-workstation-notes` adds the public-safe DGX/NVIDIA workstation workflow-notes layer without exposing real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, or sealed YOSO-YAi IP. `fine-tuning-lab-notes` adds the public-safe fine-tuning documentation layer without exposing private corpora, private weights, training logs, eval results, model outputs, hosted artifacts, or Hugging Face releases. `field-propulsion-observatory` adds public-safe evidence-boundary simulation documentation for anomalous-motion claims using synthetic examples, sensor metadata schemas, trajectory/uncertainty reasoning, and hypothesis-boundary mapping without exotic propulsion, real case, Hugging Face artifact, or Upwork listing claims.
-
-`s2h-g-control-ledger` adds public proof-surface documentation for controlled solar hydrogen logic, solar-energy accounting, water-quality gating, electrolyzer-cell model boundaries, MCU-style fault shutdown doctrine, and daily generation ledger structure while keeping implementation withheld under a proprietary, all-rights-reserved boundary.
+Status: `scaffolded` locally after Phase 1 patch  
+Purpose: master proof index and claim-control spine for Francisco Abner Rivera's public engineering surface
 
 ## Proof Model
 
-| Control | Purpose |
-|---|---|
-| `proof-matrix.md` | Maps proof lanes to repos, artifacts, status, and review needs. |
-| `claim-register.md` | Records allowed, draft, and forbidden claims. |
-| `CLAIMS.md` | Claim-review summary of allowed, review-required, and forbidden claim classes. |
-| `artifact-status.md` | Tracks live scaffold, merged scaffold, draft, held, and human-review-required labels without implying release. |
-| `review-log.md` | Records human review decisions before public use. |
-| `REVIEW_CHECKLIST.md` | Gate before the proof stack is used for external proof references. |
-| `REPO_MAP.md` | Maps Franzabner repos by proof lane and review gate. |
-| `WAVE_PLAN.md` | Shows staged rollout across navigation, hardware, agents, EPI, AI/HF, Omniverse, and monetization routing. |
-| `HUGGINGFACE_MAP.md` | Keeps Hugging Face as a release surface only. |
-| `UPWORK_MAP.md` | Keeps Upwork language as draft proof routing only. |
-| `MONETIZATION_MAP.md` | Records monetization-readiness boundaries without live offers, pricing, or client claims. |
-| `BOUNDARY_MAP.md` | Summarizes public, private, and sealed exclusions by technical lane. |
-| `LICENSE_DECISION.md` | Records that license selection is still pending human review. |
+Every public claim must map to:
 
-## Live Public Navigation
+- a repository or artifact;
+- an approved status label;
+- an artifact class;
+- a public/private/sealed boundary;
+- a validation method;
+- an evidence state;
+- a human review state;
+- a next review action.
 
-| Group | Repos | Status |
-|---|---|---|
-| First public scaffolds | `franzabner-proof-stack`, `public-pcb-review-checklist`, `engineering-agent-review-gates`, `hf-card-templates`, `technical-readme-lab` | Live public scaffolds. Release status: scaffolded. License pending human review. |
-| Derivative public boundary repos | `local-ai-lab-boundary`, `dgx-ai-workstation-notes`, `fine-tuning-lab-notes` | Live public scaffolds. `local-ai-lab-boundary` is the local AI lab boundary model. `dgx-ai-workstation-notes` is public-safe DGX/NVIDIA/workstation workflow documentation. `fine-tuning-lab-notes` is public-safe fine-tuning lab-note documentation with synthetic-only examples, dataset prep boundaries, model release gates, evaluation note templates, and Hugging Face planned/template-only routing. No real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, sealed YOSO-YAi IP, model, dataset, Space, training run, training log, model output, eval result, hosted artifact, or HF release claim. |
-| Energy/control simulation ledger | `s2h-g-control-ledger` | Live public proof surface. Controlled solar hydrogen logic, simulated before silicon. Public proof surface for a proprietary simulation-first energy-control project. Implementation withheld. All rights reserved. No public simulator implementation, no public reuse license, and no generation-guide claim. |
-| Evidence-boundary simulation | `field-propulsion-observatory` | Live public scaffold. Public-safe engineering documentation and lightweight simulation repo for anomalous-motion evidence frameworks, sensor metadata schemas, trajectory/uncertainty reasoning, and hypothesis-boundary mapping. Synthetic examples only. No exotic propulsion claim, real case claim, Hugging Face artifact, or Upwork listing. |
-| Mechanical / electrical / embedded old-repo batch | `electrical-panel-dressing`, `field-to-architect`, `mission-critical-discipline`, `pico2-pio-i2c-reference` | Public-surface alignment merged. Still scaffold/proof surfaces, not release evidence. |
-| RIB breadboard reference | `rib-breadboard` | Public-boundary cleanup merged. Public breadboard/reference scaffold only; production RIB implementation remains sealed. No production board files, firmware internals, BOMs, Gerbers, pin maps, routing, manufacturing approval, certification, sign-off, or production-ready claim. |
-| EPI spine | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Public-surface alignment merged. Research/tooling/hardware measurement scaffolds only. |
-| Paper-specific EPI | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Public-surface alignment merged. Paper/research scaffolds only; no released method, benchmark, dataset, model, Space, eval result, deployment, validated method, or proven result claim. |
+This repository is a control layer. It does not release products, create umbrella repositories, approve GitHub metadata changes, approve Hugging Face metadata changes, authorize publication, or make Codex an architectural authority.
 
-## Held Navigation
+## Reading Order
 
-| Held group | Repos or lane | Reason |
-|---|---|---|
-| Risky production-adjacent repos | rack, agent, Fusion, KiCad production, production RIB, private infrastructure lanes | Need boundary review or derivative-only planning before linking as proof. Fine-tuning lab notes now route through `fine-tuning-lab-notes`; anomalous-motion evidence-boundary simulation routes through `field-propulsion-observatory`; any additional fine-tuning, evaluation, or real-case analysis derivative remains held until review. |
-| Hugging Face artifacts | models, datasets, Spaces, reports, hosted artifacts | No artifact claim without evidence and human approval. |
-| Upwork routes | service copy, rates, delivery promises, client outcomes | Draft proof routing only. |
+| Step | File | Purpose |
+| ---: | --- | --- |
+| 1 | `README.md` | Proof model, 17-repo architecture, status vocabulary, boundaries, and review rules. |
+| 2 | `proof-matrix.md` | Repo-by-repo claim routing with artifact, status, validation, boundary, and next action. |
+| 3 | `claim-register.md` | Allowed claim patterns, evidence requirements, and forbidden public claims. |
+| 4 | `artifact-status.md` | Artifact availability, public state, release state, and review needs. |
+| 5 | `boundary-register.md` | Boundary classes for the 17 final repo roles and existing supporting repo categories. |
+| 6 | `review-log.md` | Human review history and pending decisions. |
+| 7 | `templates/proof-entry.md` | Required format for future proof rows. |
 
-## Operating Rule
+## 17-Repo Architecture
 
-No claim is clean public proof until it has:
+The approved production architecture contains two existing control/navigation repositories and 15 planned umbrella repositories.
 
-- an evidence row;
-- an artifact status;
-- a public/private/sealed boundary note;
-- a review requirement;
-- a refusal rule for unsupported or unsafe claims.
+| Repo | Category | Phase 1 status |
+| --- | --- | --- |
+| `Franzabner` | Control/navigation | `scaffolded` locally after Phase 1 patch; publication requires human review and push approval. |
+| `franzabner-proof-stack` | Control/navigation | `scaffolded` locally after Phase 1 patch; publication requires human review and push approval. |
+| `modular-infrastructure-studies` | Modular infrastructure | `planned`; do not create in Phase 1. |
+| `cad-mechanical-design-lab` | Mechanical CAD | `planned`; do not create in Phase 1. |
+| `electrical-controls-architecture` | Electrical controls | `planned`; do not create in Phase 1. |
+| `embedded-hardware-lab` | Embedded hardware | `planned`; do not create in Phase 1. |
+| `engineering-simulation-lab` | Simulation and validation | `planned`; do not create in Phase 1. |
+| `data-model-infrastructure` | Data/model infrastructure | `planned`; do not create in Phase 1. |
+| `infrastructure-energy-studies` | Energy studies | `planned`; do not create in Phase 1. |
+| `civic-infrastructure-production-systems` | Civic production systems | `planned`; do not create in Phase 1. |
+| `engineering-standards-and-validation` | Standards and validation | `planned`; do not create in Phase 1. |
+| `engineering-security-boundary` | Security boundary | `planned`; do not create in Phase 1. |
+| `engineering-deliverables-template` | Deliverables | `planned`; do not create in Phase 1. |
+| `application-development-systems` | Application systems | `planned`; do not create in Phase 1. |
+| `immersive-access-systems` | Immersive access | `planned`; do not create in Phase 1. |
+| `automated-engineering-systems` | Automated engineering systems | `planned`; do not create in Phase 1. |
+| `agentic-engineering-workforce` | Agentic engineering workforce | `planned`; do not create in Phase 1. |
 
-## Scope Limits
+## Repo Categories
 
-This scaffold does not authorize additional GitHub repo creation, Hugging Face artifact creation, live Upwork copy, license selection, release claims, client claims, deployment claims, manufacturing approval, certification, sign-off, production-ready status, model weights, datasets, Spaces, benchmarks, eval results, or hosted artifact claims.
+| Category | Proof direction | Current Phase 1 rule |
+| --- | --- | --- |
+| Control/navigation | Identity, navigation, proof control, status language, and boundary routing. | Patch only `Franzabner` and `franzabner-proof-stack`. |
+| Modular infrastructure | Rack-scale systems, power/cooling assumptions, serviceability, and deployment constraints. | `planned`; no repo creation. |
+| Mechanical CAD | Fusion 360, enclosure, rack geometry, ducting, mounting, serviceability, and manufacturing assumptions. | `planned`; no repo creation. |
+| Electrical controls | Field-grade power, sensing, actuation, control narratives, and commissioning logic. | `planned`; no repo creation. |
+| Embedded hardware | PCB, firmware, MCU, breadboard, management-bus, and validation patterns. | `planned`; no repo creation. |
+| Simulation and validation | Assumptions, models, outputs, limits, reports, and validation paths. | `planned`; no repo creation. |
+| Data/model infrastructure | Source capture, schemas, vector indexes, datasets, fine-tuning, evals, model/dataset cards, and DGX boundaries. | `planned`; no repo creation. |
+| Energy studies | Water-current-to-electricity, solar-to-hydrogen, storage, conversion, control, and safety boundaries. | `planned`; no repo creation. |
+| Civic production systems | Foundation-adjacent production studies without speaking as the Foundation. | `planned`; no repo creation. |
+| Standards and validation | Safety, commissioning, acceptance criteria, risk registers, and standard-aware templates. | `planned`; no repo creation. |
+| Security boundary | Secrets, repo visibility, client/Foundation/model boundaries, and agent permissions. | `planned`; no repo creation. |
+| Deliverables | Engineering templates, reports, BOMs, control narratives, commissioning plans, cards, and handoff checklists. | `planned`; no repo creation. |
+| Application systems | Next.js, TypeScript, product-boundary, review workflows, deployment assumptions, and validation. | `planned`; no repo creation. |
+| Immersive access | Spatial dashboards, digital twins, HMI, controlled access, CAD-to-USD pipeline, and public-safe renders. | `planned`; no repo creation. |
+| Automated engineering systems | Obsidian, Forgejo, n8n, source/provenance, operator dashboards, and mirror boundaries. | `planned`; no repo creation. |
+| Agentic engineering workforce | Codex-style execution, role cards, review gates, tool permissions, logs, and human approvals. | `planned`; no repo creation. |
+
+## Status Vocabulary
+
+Use only these approved top-level labels:
+
+| Status | Meaning in this proof stack |
+| --- | --- |
+| `planned` | Name, purpose, and review path are documented; no public artifact is claimed. |
+| `scaffolded` | Public-safe structure exists with README files, docs, templates, or placeholders but no release claim. |
+| `published` | A public repo or public document is reachable and intended for public review. |
+| `released` | A reviewed public artifact exists with evidence, limitations, companion links, and approval. |
+| `paused` | Visible work is intentionally on hold. |
+| `deprecated` | Visible work remains only with archival, replacement, or sunset context. |
+| `private/not-public` | Private, sealed, donor-sensitive, student-sensitive, customer-sensitive, model-sensitive, or security-sensitive work must not be linked as public proof. |
+
+`released` must not be used for Phase 1 control-layer scaffolds unless a separate human-approved release artifact exists.
+
+## Boundary Rules
+
+| Boundary | Rule |
+| --- | --- |
+| Public-safe artifacts only | Examples, screenshots, diagrams, model cards, dataset cards, reports, logs, outputs, and demos require synthetic or reviewed public-safe inputs. |
+| Private and sealed exclusions | Production CAD, KiCad source, BOMs, Gerbers, pin maps, firmware, topology, credentials, private corpora, weights, customer data, Foundation-private data, and operational logs stay non-public unless explicitly reviewed and transformed. |
+| Foundation independence | 218 Network Foundation is co-equal but legally and operationally distinct. Foundation material must not become personal or company marketing proof. |
+| Company/product/client separation | YOSO-YAi LLC is the company; YOSOR is a YOSO-YAi LLC product; client-owned apps are not Franzabner personal products, YOSOR, or Foundation programs. |
+| Forgejo/GitHub source role | Forgejo is canonical private source where private or sealed source applies. GitHub is public mirror, deployment source, portfolio surface, or open-source surface depending on classification. |
+| Hugging Face release-only rule | Hugging Face is a model/dataset/Space release surface only and not the canonical sealed model-development home. |
+| AI build lane | Codex and other agents are build lanes, not architectural authority or publication approval. |
+
+## Review Requirements
+
+| Review | Required before |
+| --- | --- |
+| Claim review | Stronger public language, profile routing, portfolio use, or proof promotion. |
+| Boundary review | Any screenshot, generated output, CAD/KiCad/firmware example, model/data artifact, Foundation-adjacent material, client material, or operational example. |
+| Evidence review | Any `published` or `released` status change, benchmark, eval result, artifact claim, physical validation claim, product claim, or deployment claim. |
+| Validation review | Any repo promoted beyond `planned` or `scaffolded`. |
+| Human approval | Any publication, pinning, metadata change, release, archive, transfer, rename, visibility change, or Hugging Face action. |
+
+## Next Build Step
+
+Phase 1 is limited to patching:
+
+- `Franzabner`: `README.md`, `PROOF_INDEX.md`, `PUBLIC_SURFACE.md`, `BOUNDARIES.md`, `STATUS.md`;
+- `franzabner-proof-stack`: `README.md`, `proof-matrix.md`, `claim-register.md`, `artifact-status.md`, `boundary-register.md`, `review-log.md`, `templates/proof-entry.md`.
+
+The next human review should decide whether these two control repositories are safe to keep at `scaffolded` status and whether a separate Phase 2 plan may start for the first umbrella repositories.
