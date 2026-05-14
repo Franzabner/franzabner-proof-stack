@@ -32,14 +32,14 @@ This repository is a control layer. It does not release products, create umbrell
 
 ## 17-Repo Architecture
 
-The approved production architecture contains two existing control/navigation repositories and 15 planned umbrella repositories.
+The approved production architecture contains two control/navigation repositories, two public scaffold Phase 2 repositories, and 13 still-planned umbrella repositories.
 
 | Repo | Category | Phase 1 status |
 | --- | --- | --- |
 | `Franzabner` | Control/navigation | `scaffolded` locally after Phase 1 patch; publication requires human review and push approval. |
 | `franzabner-proof-stack` | Control/navigation | `scaffolded` locally after Phase 1 patch; publication requires human review and push approval. |
-| `modular-infrastructure-studies` | Modular infrastructure | `planned`; do not create in Phase 1. |
-| `cad-mechanical-design-lab` | Mechanical CAD | `planned`; do not create in Phase 1. |
+| [`modular-infrastructure-studies`](https://github.com/Franzabner/modular-infrastructure-studies) | Modular infrastructure | `scaffolded`; public scaffold only, not released. |
+| [`cad-mechanical-design-lab`](https://github.com/Franzabner/cad-mechanical-design-lab) | Mechanical CAD | `scaffolded`; public scaffold only, not released. |
 | `electrical-controls-architecture` | Electrical controls | `planned`; do not create in Phase 1. |
 | `embedded-hardware-lab` | Embedded hardware | `planned`; do not create in Phase 1. |
 | `engineering-simulation-lab` | Simulation and validation | `planned`; do not create in Phase 1. |
@@ -59,8 +59,8 @@ The approved production architecture contains two existing control/navigation re
 | Category | Proof direction | Current Phase 1 rule |
 | --- | --- | --- |
 | Control/navigation | Identity, navigation, proof control, status language, and boundary routing. | Patch only `Franzabner` and `franzabner-proof-stack`. |
-| Modular infrastructure | Rack-scale systems, power/cooling assumptions, serviceability, and deployment constraints. | `planned`; no repo creation. |
-| Mechanical CAD | Fusion 360, enclosure, rack geometry, ducting, mounting, serviceability, and manufacturing assumptions. | `planned`; no repo creation. |
+| Modular infrastructure | Rack-scale systems, power/cooling assumptions, serviceability, and deployment constraints. | Public scaffold exists; no release, deployment, certification, or proof-completion claim. |
+| Mechanical CAD | Fusion 360, enclosure, rack geometry, ducting, mounting, serviceability, and manufacturing assumptions. | Public scaffold exists; no production CAD, release, deployment, certification, or proof-completion claim. |
 | Electrical controls | Field-grade power, sensing, actuation, control narratives, and commissioning logic. | `planned`; no repo creation. |
 | Embedded hardware | PCB, firmware, MCU, breadboard, management-bus, and validation patterns. | `planned`; no repo creation. |
 | Simulation and validation | Assumptions, models, outputs, limits, reports, and validation paths. | `planned`; no repo creation. |
@@ -120,4 +120,4 @@ Phase 1 is limited to patching:
 - `Franzabner`: `README.md`, `PROOF_INDEX.md`, `PUBLIC_SURFACE.md`, `BOUNDARIES.md`, `STATUS.md`;
 - `franzabner-proof-stack`: `README.md`, `proof-matrix.md`, `claim-register.md`, `artifact-status.md`, `boundary-register.md`, `review-log.md`, `templates/proof-entry.md`.
 
-The next human review should decide whether these two control repositories are safe to keep at `scaffolded` status and whether a separate Phase 2 plan may start for the first umbrella repositories.
+The next human review should decide whether the two public Phase 2 scaffold repos are safe to route from the profile and whether either can later be promoted beyond `scaffolded`.

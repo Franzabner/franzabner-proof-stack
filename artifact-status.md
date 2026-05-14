@@ -15,8 +15,8 @@ Artifact presence may be described as present or absent, but the status field mu
 | --- | --- | --- | --- | --- |
 | `Franzabner` profile file set | Present locally after Phase 1 patch. | `scaffolded` | Local patch only; not pushed or newly published by Phase 1. | Human review before push or public routing update. |
 | `franzabner-proof-stack` file set | Present locally after Phase 1 patch. | `scaffolded` | Local patch only; not pushed or newly published by Phase 1. | Human review before push or public routing update. |
-| `modular-infrastructure-studies` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
-| `cad-mechanical-design-lab` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
+| [`modular-infrastructure-studies`](https://github.com/Franzabner/modular-infrastructure-studies) | Public scaffold repo present; first artifact at [`studies/modular-serviceability-study.md`](https://github.com/Franzabner/modular-infrastructure-studies/blob/main/studies/modular-serviceability-study.md). | `scaffolded` | Public scaffold only; not released, deployed, certified, product-ready, or proof-complete. | Human review before profile routing, proof promotion, release language, pinning, or metadata changes. |
+| [`cad-mechanical-design-lab`](https://github.com/Franzabner/cad-mechanical-design-lab) | Public scaffold repo present; first artifact at [`design-studies/synthetic-enclosure-study.md`](https://github.com/Franzabner/cad-mechanical-design-lab/blob/main/design-studies/synthetic-enclosure-study.md). | `scaffolded` | Public scaffold only; not released, no production CAD, no CAD export approval, and no deployment/certification/product-readiness claim. | Human CAD-boundary review before profile routing, proof promotion, screenshots, exports, renders, pinning, or metadata changes. |
 | `electrical-controls-architecture` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
 | `embedded-hardware-lab` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
 | `engineering-simulation-lab` | Absent in Phase 1. | `planned` | No public repo or release claim from this patch. | Human approval before creation. |
@@ -39,4 +39,4 @@ Artifact presence may be described as present or absent, but the status field mu
 
 ## Publication Rule
 
-This file may describe local scaffolded files. It does not publish those files, push changes, update GitHub metadata, update Hugging Face metadata, or approve public use.
+This file may describe scaffolded public files. It does not release artifacts, update GitHub metadata, update Hugging Face metadata, approve profile routing, approve proof completion, or authorize stronger public claims.
