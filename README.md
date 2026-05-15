@@ -32,7 +32,7 @@ This repository is a control layer. It does not release products, create umbrell
 
 ## 17-Repo Architecture
 
-The approved production architecture contains two control/navigation repositories, eleven public scaffold Phase 2/3/4/5/6 repositories, and 4 still-planned umbrella repositories.
+The approved production architecture contains two control/navigation repositories and fifteen public scaffold Phase 2/3/4/5/6/7 repositories.
 
 | Repo | Category | Current status |
 | --- | --- | --- |
@@ -49,10 +49,10 @@ The approved production architecture contains two control/navigation repositorie
 | [`engineering-standards-and-validation`](https://github.com/Franzabner/engineering-standards-and-validation) | Standards and validation | `scaffolded`; public scaffold only, not released. |
 | [`engineering-security-boundary`](https://github.com/Franzabner/engineering-security-boundary) | Security boundary | `scaffolded`; public scaffold only, not released. |
 | [`engineering-deliverables-template`](https://github.com/Franzabner/engineering-deliverables-template) | Deliverables | `scaffolded`; public scaffold only, not released. |
-| `application-development-systems` | Application systems | `planned`; do not create in Phase 1. |
-| `immersive-access-systems` | Immersive access | `planned`; do not create in Phase 1. |
-| `automated-engineering-systems` | Automated engineering systems | `planned`; do not create in Phase 1. |
-| `agentic-engineering-workforce` | Agentic engineering workforce | `planned`; do not create in Phase 1. |
+| [`application-development-systems`](https://github.com/Franzabner/application-development-systems) | Application systems | `scaffolded`; public scaffold only, not released. |
+| [`immersive-access-systems`](https://github.com/Franzabner/immersive-access-systems) | Immersive access | `scaffolded`; public scaffold only, not released. |
+| [`automated-engineering-systems`](https://github.com/Franzabner/automated-engineering-systems) | Automated engineering systems | `scaffolded`; public scaffold only, not released. |
+| [`agentic-engineering-workforce`](https://github.com/Franzabner/agentic-engineering-workforce) | Agentic engineering workforce | `scaffolded`; public scaffold only, not released. |
 
 ## Repo Categories
 
@@ -70,10 +70,10 @@ The approved production architecture contains two control/navigation repositorie
 | Standards and validation | Safety, commissioning, acceptance criteria, risk registers, and standard-aware templates. | Public scaffold exists; no release, certification, code-compliance approval, stamped-engineering implication, legal approval, customer-deliverable, safety-approval, active-service, production-readiness, or proof-completion claim. |
 | Security boundary | Secrets, repo visibility, client/Foundation/model boundaries, and agent permissions. | Public scaffold exists; no release, security-compliance approval, legal approval, customer-deliverable, active-service, model-release, dataset-release, metadata-approval, or proof-completion claim. |
 | Deliverables | Engineering templates, reports, BOMs, control narratives, commissioning plans, cards, and handoff checklists. | Public scaffold exists; no release, certification, code-compliance approval, stamped-engineering implication, legal approval, customer-deliverable, active-service, model-release, dataset-release, Space-release, production-readiness, or proof-completion claim. |
-| Application systems | Next.js, TypeScript, product-boundary, review workflows, deployment assumptions, and validation. | `planned`; no repo creation. |
-| Immersive access | Spatial dashboards, digital twins, HMI, controlled access, CAD-to-USD pipeline, and public-safe renders. | `planned`; no repo creation. |
-| Automated engineering systems | Obsidian, Forgejo, n8n, source/provenance, operator dashboards, and mirror boundaries. | `planned`; no repo creation. |
-| Agentic engineering workforce | Codex-style execution, role cards, review gates, tool permissions, logs, and human approvals. | `planned`; no repo creation. |
+| Application systems | Next.js, TypeScript, product-boundary, review workflows, deployment assumptions, and validation. | Public scaffold exists; no live app, active customer, released software, production-readiness, active-service, deployment-proof, or proof-completion claim. |
+| Immersive access | Spatial dashboards, digital twins, HMI, controlled access, CAD-to-USD pipeline, and public-safe renders. | Public scaffold exists; no deployed portal, production dashboard, live telemetry, active-service, production-readiness, or proof-completion claim. |
+| Automated engineering systems | Obsidian, Forgejo, n8n, source/provenance, operator dashboards, and mirror boundaries. | Public scaffold exists; no production automation, live operation, private topology, active-service, production-readiness, or proof-completion claim. |
+| Agentic engineering workforce | Codex-style execution, role cards, review gates, tool permissions, logs, and human approvals. | Public scaffold exists; no active agent workforce, autonomous production agent, released software, active-service, production-readiness, or proof-completion claim. |
 
 ## Status Vocabulary
 
@@ -127,6 +127,10 @@ Current control-repo routing is limited to public scaffold links for:
 - [`civic-infrastructure-production-systems`](https://github.com/Franzabner/civic-infrastructure-production-systems);
 - [`engineering-standards-and-validation`](https://github.com/Franzabner/engineering-standards-and-validation);
 - [`engineering-security-boundary`](https://github.com/Franzabner/engineering-security-boundary);
-- [`engineering-deliverables-template`](https://github.com/Franzabner/engineering-deliverables-template).
+- [`engineering-deliverables-template`](https://github.com/Franzabner/engineering-deliverables-template);
+- [`application-development-systems`](https://github.com/Franzabner/application-development-systems);
+- [`immersive-access-systems`](https://github.com/Franzabner/immersive-access-systems);
+- [`automated-engineering-systems`](https://github.com/Franzabner/automated-engineering-systems);
+- [`agentic-engineering-workforce`](https://github.com/Franzabner/agentic-engineering-workforce).
 
-The next human review should decide whether the Phase 2/3/4/5/6 public scaffold routes are safe to push from the control repositories and whether any can later be promoted beyond `scaffolded`.
+The next human review should decide whether the Phase 2/3/4/5/6/7 public scaffold routes are safe to push from the control repositories and whether any can later be promoted beyond `scaffolded`.

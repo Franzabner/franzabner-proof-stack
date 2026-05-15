@@ -15,18 +15,19 @@ Purpose: human review history and pending review queue
 | 2026-05-14 | Phase 4 simulation/data public scaffold repos | `scaffolded` | Human review required before proof promotion | `engineering-simulation-lab` and `data-model-infrastructure` are public scaffold repos with validation scripts and first synthetic artifacts. They are not released, deployed, certified, benchmark-backed, physically validated, model-released, dataset-released, Space-released, fine-tuned-model-available, product-ready, or proof-complete. |
 | 2026-05-14 | Phase 5 energy/civic production public scaffold repos | `scaffolded` | Human review required before proof promotion | `infrastructure-energy-studies` and `civic-infrastructure-production-systems` are public scaffold repos with validation scripts and first synthetic artifacts. They are not released, deployed, certified-safe, proven-output, operational Foundation program evidence, school-deployed, production-recycling-line evidence, live-civic-node evidence, manufacturing-ready, product-ready, or proof-complete. |
 | 2026-05-14 | Phase 6 standards/security/deliverables public scaffold repos | `scaffolded` | Human review required before proof promotion | `engineering-standards-and-validation`, `engineering-security-boundary`, and `engineering-deliverables-template` are public scaffold repos with validation scripts and first synthetic artifacts. They are not released, certified, code-compliance approved, stamped, legally approved, customer-deliverable evidence, active-service evidence, model-released, dataset-released, Space-released, production-ready, or proof-complete. |
+| 2026-05-15 | Phase 7 app/immersive/automation/agent public scaffold repos | `scaffolded` | Human review required before proof promotion | `application-development-systems`, `immersive-access-systems`, `automated-engineering-systems`, and `agentic-engineering-workforce` are public scaffold repos with validation scripts and first synthetic artifacts. They are not live apps, deployed portals, production automation, active agent workforce evidence, autonomous production-agent evidence, active-customer evidence, released software, active-service evidence, production-ready, or proof-complete. |
 
 ## Required Future Reviews
 
 | Review | Required before |
 | --- | --- |
-| Profile language review | Pushing or publicly relying on the patched `Franzabner` profile files or Phase 2/3/4/5/6 scaffold links. |
-| Proof matrix review | Pushing or publicly relying on this proof stack as the control layer for Phase 2/3/4/5/6 scaffold routes. |
+| Profile language review | Pushing or publicly relying on the patched `Franzabner` profile files or Phase 2/3/4/5/6/7 scaffold links. |
+| Proof matrix review | Pushing or publicly relying on this proof stack as the control layer for Phase 2/3/4/5/6/7 scaffold routes. |
 | Status vocabulary review | Any status change beyond `planned` or `scaffolded`. |
 | Boundary review | Any supporting repo promotion, generated output, screenshot, CAD, KiCad, firmware, model/data artifact, Foundation-adjacent material, or client-related material. |
 | Evidence review | Any `published` or `released` claim, artifact release, model/dataset/Space claim, benchmark, eval result, product claim, deployment claim, service claim, or certification claim. |
 | Metadata review | Any GitHub profile bio, pin, repo description, topic, homepage, visibility, archive, or Hugging Face metadata change. |
-| Umbrella repo creation review | Creating any of the 4 remaining planned umbrella repositories. |
+| Umbrella repo creation review | Creating any additional umbrella or supporting repository. |
 | Supporting repo patch review | Editing any existing narrow supporting repository. |
 
 ## Open Decisions
@@ -39,5 +40,6 @@ Purpose: human review history and pending review queue
 | Are `engineering-simulation-lab` and `data-model-infrastructure` safe to route from `Franzabner` as scaffolded public proof surfaces? | Pending human review of this routing patch. |
 | Are `infrastructure-energy-studies` and `civic-infrastructure-production-systems` safe to route from `Franzabner` as scaffolded public proof surfaces? | Pending human review of this routing patch. |
 | Are `engineering-standards-and-validation`, `engineering-security-boundary`, and `engineering-deliverables-template` safe to route from `Franzabner` as scaffolded public proof surfaces? | Pending human review of this routing patch. |
+| Are `application-development-systems`, `immersive-access-systems`, `automated-engineering-systems`, and `agentic-engineering-workforce` safe to route from `Franzabner` as scaffolded public proof surfaces? | Pending human review of this routing patch. |
 | Should any supporting narrow repo be rewritten, merged, replaced, archived, transferred, or made private/not-public? | Pending separate repo-by-repo review. |
 | Should any GitHub or Hugging Face metadata change? | Not authorized by Phase 1. |
