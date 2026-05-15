@@ -32,7 +32,7 @@ This repository is a control layer. It does not release products, create umbrell
 
 ## 17-Repo Architecture
 
-The approved production architecture contains two control/navigation repositories, eight public scaffold Phase 2/3/4/5 repositories, and 7 still-planned umbrella repositories.
+The approved production architecture contains two control/navigation repositories, eleven public scaffold Phase 2/3/4/5/6 repositories, and 4 still-planned umbrella repositories.
 
 | Repo | Category | Current status |
 | --- | --- | --- |
@@ -46,9 +46,9 @@ The approved production architecture contains two control/navigation repositorie
 | [`data-model-infrastructure`](https://github.com/Franzabner/data-model-infrastructure) | Data/model infrastructure | `scaffolded`; public scaffold only, not released. |
 | [`infrastructure-energy-studies`](https://github.com/Franzabner/infrastructure-energy-studies) | Energy studies | `scaffolded`; public scaffold only, not released. |
 | [`civic-infrastructure-production-systems`](https://github.com/Franzabner/civic-infrastructure-production-systems) | Civic production systems | `scaffolded`; public scaffold only, not released. |
-| `engineering-standards-and-validation` | Standards and validation | `planned`; do not create in Phase 1. |
-| `engineering-security-boundary` | Security boundary | `planned`; do not create in Phase 1. |
-| `engineering-deliverables-template` | Deliverables | `planned`; do not create in Phase 1. |
+| [`engineering-standards-and-validation`](https://github.com/Franzabner/engineering-standards-and-validation) | Standards and validation | `scaffolded`; public scaffold only, not released. |
+| [`engineering-security-boundary`](https://github.com/Franzabner/engineering-security-boundary) | Security boundary | `scaffolded`; public scaffold only, not released. |
+| [`engineering-deliverables-template`](https://github.com/Franzabner/engineering-deliverables-template) | Deliverables | `scaffolded`; public scaffold only, not released. |
 | `application-development-systems` | Application systems | `planned`; do not create in Phase 1. |
 | `immersive-access-systems` | Immersive access | `planned`; do not create in Phase 1. |
 | `automated-engineering-systems` | Automated engineering systems | `planned`; do not create in Phase 1. |
@@ -67,9 +67,9 @@ The approved production architecture contains two control/navigation repositorie
 | Data/model infrastructure | Source capture, schemas, vector indexes, datasets, fine-tuning, evals, model/dataset cards, and DGX boundaries. | Public scaffold exists; no model release, dataset release, Space release, fine-tuned model availability, benchmark result, deployment, certification, or proof-completion claim. |
 | Energy studies | Water-current-to-electricity, solar-to-hydrogen, storage, conversion, control, and safety boundaries. | Public scaffold exists; no release, deployment, certified-safety, proven-output, commercial-readiness, manufacturing-readiness, or proof-completion claim. |
 | Civic production systems | Foundation-adjacent production studies without speaking as the Foundation. | Public scaffold exists; no release, operational Foundation program, school deployment, production recycling line, live civic-node deployment, disaster-response deployment, manufacturing-readiness, certified-safety, or proof-completion claim. |
-| Standards and validation | Safety, commissioning, acceptance criteria, risk registers, and standard-aware templates. | `planned`; no repo creation. |
-| Security boundary | Secrets, repo visibility, client/Foundation/model boundaries, and agent permissions. | `planned`; no repo creation. |
-| Deliverables | Engineering templates, reports, BOMs, control narratives, commissioning plans, cards, and handoff checklists. | `planned`; no repo creation. |
+| Standards and validation | Safety, commissioning, acceptance criteria, risk registers, and standard-aware templates. | Public scaffold exists; no release, certification, code-compliance approval, stamped-engineering implication, legal approval, customer-deliverable, safety-approval, active-service, production-readiness, or proof-completion claim. |
+| Security boundary | Secrets, repo visibility, client/Foundation/model boundaries, and agent permissions. | Public scaffold exists; no release, security-compliance approval, legal approval, customer-deliverable, active-service, model-release, dataset-release, metadata-approval, or proof-completion claim. |
+| Deliverables | Engineering templates, reports, BOMs, control narratives, commissioning plans, cards, and handoff checklists. | Public scaffold exists; no release, certification, code-compliance approval, stamped-engineering implication, legal approval, customer-deliverable, active-service, model-release, dataset-release, Space-release, production-readiness, or proof-completion claim. |
 | Application systems | Next.js, TypeScript, product-boundary, review workflows, deployment assumptions, and validation. | `planned`; no repo creation. |
 | Immersive access | Spatial dashboards, digital twins, HMI, controlled access, CAD-to-USD pipeline, and public-safe renders. | `planned`; no repo creation. |
 | Automated engineering systems | Obsidian, Forgejo, n8n, source/provenance, operator dashboards, and mirror boundaries. | `planned`; no repo creation. |
@@ -124,6 +124,9 @@ Current control-repo routing is limited to public scaffold links for:
 - [`engineering-simulation-lab`](https://github.com/Franzabner/engineering-simulation-lab);
 - [`data-model-infrastructure`](https://github.com/Franzabner/data-model-infrastructure);
 - [`infrastructure-energy-studies`](https://github.com/Franzabner/infrastructure-energy-studies);
-- [`civic-infrastructure-production-systems`](https://github.com/Franzabner/civic-infrastructure-production-systems).
+- [`civic-infrastructure-production-systems`](https://github.com/Franzabner/civic-infrastructure-production-systems);
+- [`engineering-standards-and-validation`](https://github.com/Franzabner/engineering-standards-and-validation);
+- [`engineering-security-boundary`](https://github.com/Franzabner/engineering-security-boundary);
+- [`engineering-deliverables-template`](https://github.com/Franzabner/engineering-deliverables-template).
 
-The next human review should decide whether the Phase 2/3/4/5 public scaffold routes are safe to push from the control repositories and whether any can later be promoted beyond `scaffolded`.
+The next human review should decide whether the Phase 2/3/4/5/6 public scaffold routes are safe to push from the control repositories and whether any can later be promoted beyond `scaffolded`.
