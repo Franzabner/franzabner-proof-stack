@@ -14,7 +14,7 @@ This file records the staged rollout order for the Franzabner public technical s
 | 2 | First clean public proof stack | `public-pcb-review-checklist`, `engineering-agent-review-gates`, `hf-card-templates`, `technical-readme-lab` | Live public scaffolds. | Claim, license, artifact, and external-reference review. |
 | 3 | First safe old-repo alignment | `electrical-panel-dressing`, `field-to-architect`, `mission-critical-discipline`, `pico2-pio-i2c-reference` | Alignment branches merged to `main`. | Rendered README/status review before stronger public use. |
 | 4 | EPI spine alignment | `energy-per-intelligence`, `epi-bench`, `epi-meter` | Alignment branches merged to `main`. | No result, benchmark, dataset, model, Space, production hardware, certification, or deployment claims. |
-| 5 | Paper-specific EPI cleanup | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Alignment PRs merged to `main`. | No released method, benchmark, dataset, model, Space, eval result, deployment, validated method, private harness, or proven result claim. |
+| 5 | Paper-specific EPI cleanup | `attention-head-surgery-epi`, `mixed-quant-epi`, `expert-pruning-epi` | Archived-legacy candidates; public-safe EPI taxonomy and claim gates migrated to `data-model-infrastructure`, `engineering-simulation-lab`, and `engineering-standards-and-validation`. | No model, dataset, Space, Hugging Face, benchmark, result, proof-completion, release, deployment, validated method, private harness, or proven result claim. |
 | 6 | RIB breadboard boundary cleanup | `rib-breadboard` | Cleanup PR merged to `main`. | Public breadboard/reference scaffold only; production RIB implementation remains sealed. No production board files, firmware internals, BOMs, Gerbers, pin maps, routing, manufacturing approval, certification, sign-off, or production-ready claim. |
 | 7 | First derivative public boundary repo | `local-ai-lab-boundary` | Live public scaffold. | Synthetic-only local AI lab boundary model. No real topology, endpoints, credentials, tokens, private corpora, private weights, private prompts, private agent harnesses, or sealed YOSO-YAi IP. |
 | 8 | Second derivative public DGX/workstation notes repo | `dgx-ai-workstation-notes` | Live public scaffold. | Public-safe DGX/NVIDIA/workstation workflow notes. Synthetic-only examples. No real topology, hostnames, IPs, endpoints, credentials, tokens, Tailscale, SSH, Forgejo, n8n, LiteLLM, NIM details, private corpora, private weights, private prompts, private agent harnesses, sealed YOSO-YAi IP, model, dataset, Space, training run, model output, or hosted artifact claim. |
@@ -32,7 +32,7 @@ The public account should now point to:
 2. first clean public scaffolds;
 3. merged mechanical/electrical/embedded discipline repos;
 4. merged EPI spine scaffolds;
-5. merged paper-specific EPI scaffolds;
+5. archived-legacy candidate status for paper-specific EPI repos, with public-safe EPI material routed through `data-model-infrastructure`, `engineering-simulation-lab`, and `engineering-standards-and-validation`;
 6. merged RIB breadboard reference scaffold;
 7. live local AI lab boundary scaffold;
 8. live DGX/NVIDIA workstation notes scaffold;
